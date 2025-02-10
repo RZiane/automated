@@ -1,0 +1,1721 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Monsieur l'arcevesque de Vienne, pour satisfaire à la requeste qu'il vous a pleu me faire de vous escrire et mettre par memoire ce que j'ay sceu et congneu des faictz du roy Loys unziesme, à qui Dieu face pardon, nostre maistre et bienfaicteur, et prince digne de très excellente memoire, je l'ay faict le plus près de la verité que j'ay peu et sceu avoir souvenance.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 0
+# tags = trans
+1	Monsieur	monsieur	NOUN	NOMcom	_	62	vocative	_	XmlId=w_32_00002
+2	l'	le	DET	DETdef	Definite=Def|PronType=Art	3	det	_	SpaceAfter=No|XmlId=w_32_00003
+3	arcevesque	archevêque	NOUN	NOMcom	_	1	flat	_	XmlId=w_32_00004
+4	de	de	ADP	PRE	_	5	case	_	XmlId=w_32_00005
+5	Vienne	Vienne	PROPN	NOMpro	_	3	nmod	_	SpaceAfter=No|XmlId=w_32_00006
+6	,	,	PUNCT	PONfbl	_	8	punct	_	XmlId=w_32_00007
+7	pour	pour	ADP	PRE	_	8	mark	_	XmlId=w_32_00008
+8	satisfaire	satisfaire	VERB	VERinf	VerbForm=Inf	62	advcl	_	XmlId=w_32_00009
+9	à	à	ADP	PRE	_	11	case	_	XmlId=w_32_00010
+10	la	le	DET	DETdef	Definite=Def|PronType=Art	11	det	_	XmlId=w_32_00011
+11	requeste	requête	NOUN	NOMcom	_	8	obl	_	XmlId=w_32_00012
+12	qu'	que	PRON	PROrel	PronType=Rel	18	obj	_	SpaceAfter=No|XmlId=w_32_00013
+13	il	il	PRON	PROimp	PronType=Prs	16	expl	_	XmlId=w_32_00014
+14	vous	vous	PRON	PROper	PronType=Prs	16	iobj	_	XmlId=w_32_00015
+15	a	avoir	AUX	VERcjg	VerbForm=Fin	16	aux	_	XmlId=w_32_00016
+16	pleu	plaire	VERB	VERppe	Tense=Past|VerbForm=Part	11	acl:relcl	_	XmlId=w_32_00017
+17	me	me	PRON	PROper	PronType=Prs	18	iobj	_	XmlId=w_32_00018
+18	faire	faire	VERB	VERinf	VerbForm=Inf	16	xcomp	_	XmlId=w_32_00019
+19	de	de	ADP	PRE	_	21	case	_	XmlId=w_32_00020
+20	vous	vous	PRON	PROper	PronType=Prs	21	iobj	_	XmlId=w_32_00021
+21	escrire	écrire	VERB	VERinf	VerbForm=Inf	18	xcomp	_	XmlId=w_32_00022
+22	et	et	CCONJ	CONcoo	_	23	cc	_	XmlId=w_32_00023
+23	mettre	mettre	VERB	VERinf	VerbForm=Inf	21	conj	_	XmlId=w_32_00024
+24	par	par1	ADP	PRE	_	25	case	_	XmlId=w_32_00025
+25	memoire	mémoire	NOUN	NOMcom	_	23	obl	_	XmlId=w_32_00026
+26	ce	ce1	PRON	PROdem	PronType=Dem	23	obj	_	XmlId=w_32_00027
+27	que	que	PRON	PROrel	PronType=Rel	30	obj	_	XmlId=w_32_00028
+28	j'	je	PRON	PROper	PronType=Prs	30	nsubj	_	SpaceAfter=No|XmlId=w_32_00029
+29	ay	avoir	AUX	VERcjg	VerbForm=Fin	30	aux	_	XmlId=w_32_00030
+30	sceu	savoir1	VERB	VERppe	Tense=Past|VerbForm=Part	26	acl:relcl	_	XmlId=w_32_00031
+31	et	et	CCONJ	CONcoo	_	32	cc	_	XmlId=w_32_00032
+32	congneu	connaître	VERB	VERppe	Tense=Past|VerbForm=Part	30	conj	_	XmlId=w_32_00033
+33	des	de.le	ADP	PRE.DETdef	_	34	case:det	_	XmlId=w_32_00034
+34	faictz	fait	NOUN	NOMcom	_	30	obl	_	XmlId=w_32_00035
+35	du	de.le	ADP	PRE.DETdef	_	36	case:det	_	XmlId=w_32_00036
+36	roy	roi1	NOUN	NOMcom	_	34	nmod	_	XmlId=w_32_00037
+37	Loys	Louis	PROPN	NOMpro	_	36	flat	_	XmlId=w_32_00038
+38	unziesme	onzième	ADJ	ADJord	NumType=Ord	37	amod	_	SpaceAfter=No|XmlId=w_32_00039
+39	,	,	PUNCT	PONfbl	_	43	punct	_	XmlId=w_32_00040
+40	à	à	ADP	PRE	_	41	case	_	XmlId=w_32_00041
+41	qui	qui1	PRON	PROrel	PronType=Rel	43	obl	_	XmlId=w_32_00042
+42	Dieu	Dieu	PROPN	NOMpro	_	43	nsubj	_	XmlId=w_32_00043
+43	face	faire	VERB	VERcjg	VerbForm=Fin	36	acl:relcl	_	XmlId=w_32_00044
+44	pardon	pardon	NOUN	NOMcom	_	43	obj	_	SpaceAfter=No|XmlId=w_32_00045
+45	,	,	PUNCT	PONfbl	_	43	punct	_	XmlId=w_32_00046
+46	nostre	notre	DET	DETpos	Poss=Yes	47	det	_	XmlId=w_32_00047
+47	maistre	maître1	NOUN	NOMcom	_	36	appos	_	XmlId=w_32_00048
+48	et	et	CCONJ	CONcoo	_	49	cc	_	XmlId=w_32_00049
+49	bienfaicteur	bienfaiteur	NOUN	NOMcom	_	47	conj	_	SpaceAfter=No|XmlId=w_32_00050
+50	,	,	PUNCT	PONfbl	_	52	punct	_	XmlId=w_32_00051
+51	et	et	CCONJ	CONcoo	_	52	cc	_	XmlId=w_32_00052
+52	prince	prince1	NOUN	NOMcom	_	47	conj	_	XmlId=w_32_00053
+53	digne	digne	ADJ	ADJqua	_	52	amod	_	XmlId=w_32_00054
+54	de	de	ADP	PRE	_	57	case	_	XmlId=w_32_00055
+55	très	très	ADV	ADVgen	_	56	advmod	_	XmlId=w_32_00056
+56	excellente	excellent	ADJ	ADJqua	_	57	amod	_	XmlId=w_32_00057
+57	memoire	mémoire	NOUN	NOMcom	_	53	nmod	_	SpaceAfter=No|XmlId=w_32_00058
+58	,	,	PUNCT	PONfbl	_	8	punct	_	XmlId=w_32_00059
+59	je	je	PRON	PROper	PronType=Prs	62	nsubj	_	XmlId=w_32_00060
+60	l'	le	PRON	PROper	PronType=Prs	62	obj	_	SpaceAfter=No|XmlId=w_32_00061
+61	ay	avoir	AUX	VERcjg	VerbForm=Fin	62	aux	_	XmlId=w_32_00062
+62	faict	faire	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	XmlId=w_32_00063
+63	le	le	DET	DETdef	Definite=Def|PronType=Art	65	det	_	XmlId=w_32_00064
+64	plus	plus	ADV	ADVgen	_	65	advmod	_	XmlId=w_32_00065
+65	près	près	ADV	ADVgen	_	68	advmod	_	XmlId=w_32_00066
+66	de	de	ADP	PRE	_	68	case	_	XmlId=w_32_00067
+67	la	le	DET	DETdef	Definite=Def|PronType=Art	68	det	_	XmlId=w_32_00068
+68	verité	vérité	NOUN	NOMcom	_	62	obl	_	XmlId=w_32_00069
+69	que	que	PRON	PROrel	PronType=Rel	75	obj	_	XmlId=w_32_00070
+70	j'	je	PRON	PROper	PronType=Prs	72	nsubj	_	SpaceAfter=No|XmlId=w_32_00071
+71	ay	avoir	AUX	VERcjg	VerbForm=Fin	72	aux	_	XmlId=w_32_00072
+72	peu	pouvoir	VERB	VERppe	Tense=Past|VerbForm=Part	65	advcl	_	XmlId=w_32_00073
+73	et	et	CCONJ	CONcoo	_	74	cc	_	XmlId=w_32_00074
+74	sceu	savoir1	VERB	VERppe	Tense=Past|VerbForm=Part	72	conj	_	XmlId=w_32_00075
+75	avoir	avoir1	VERB	VERinf	VerbForm=Inf	72	xcomp	_	XmlId=w_32_00076
+76	souvenance	souvenance	NOUN	NOMcom	_	75	xcomp	_	SpaceAfter=No|XmlId=w_32_00077
+77	.	.	PUNCT	PONfrt	_	62	punct	_	XmlId=w_32_00078
+
+# text = Et pour ce que je ne vouldroye point mentir, se pourroit faire que, en quelque endroit de cest escript, se pourroit aulcune chose trouver qui du tout ne seroit à sa louenge.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 7
+# tags = trans
+1	Et	et	CCONJ	CONcoo	_	12	cc:nc	_	XmlId=w_32_00276
+2	pour	pour	ADP	PRE	_	3	case	_	XmlId=w_32_00277
+3	ce	ce1	PRON	PROdem	PronType=Dem	13	obl	_	XmlId=w_32_00278
+4	que	que	SCONJ	CONsub	_	7	mark	_	XmlId=w_32_00279
+5	je	je	PRON	PROper	PronType=Prs	7	nsubj	_	XmlId=w_32_00280
+6	ne	ne1	ADV	ADVneg	PronType=Neg	7	advmod	_	XmlId=w_32_00281
+7	vouldroye	vouloir	VERB	VERcjg	VerbForm=Fin	3	acl	_	XmlId=w_32_00282
+8	point	point2	ADV	ADVneg	PronType=Neg	7	advmod	_	XmlId=w_32_00283
+9	mentir	mentir	VERB	VERinf	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|XmlId=w_32_00284
+10	,	,	PUNCT	PONfbl	_	12	punct	_	XmlId=w_32_00285
+11	se	se1	PRON	PROper	PronType=Prs	13	expl	_	XmlId=w_32_00286
+12	pourroit	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_00287
+13	faire	faire	VERB	VERinf	VerbForm=Inf	12	xcomp	_	XmlId=w_32_00288
+14	que	que	SCONJ	CONsub	_	24	mark	_	SpaceAfter=No|XmlId=w_32_00289
+15	,	,	PUNCT	PONfbl	_	18	punct	_	XmlId=w_32_00290
+16	en	en1	ADP	PRE	_	18	case	_	XmlId=w_32_00291
+17	quelque	quelque	DET	DETind	PronType=Ind	18	det	_	XmlId=w_32_00292
+18	endroit	endroit	NOUN	NOMcom	_	27	obl	_	XmlId=w_32_00293
+19	de	de	ADP	PRE	_	21	case	_	XmlId=w_32_00294
+20	cest	cist	DET	DETdem	PronType=Dem	21	det	_	XmlId=w_32_00295
+21	escript	écrit	NOUN	NOMcom	_	18	nmod	_	SpaceAfter=No|XmlId=w_32_00296
+22	,	,	PUNCT	PONfbl	_	18	punct	_	XmlId=w_32_00297
+23	se	se1	PRON	PROper	PronType=Prs	27	expl	_	XmlId=w_32_00298
+24	pourroit	pouvoir	VERB	VERcjg	VerbForm=Fin	13	ccomp	_	XmlId=w_32_00299
+25	aulcune	aucun	DET	DETind	PronType=Ind	26	det	_	XmlId=w_32_00300
+26	chose	chose	NOUN	NOMcom	_	24	nsubj	_	XmlId=w_32_00301
+27	trouver	trouver	VERB	VERinf	VerbForm=Inf	24	xcomp	_	XmlId=w_32_00302
+28	qui	qui1	PRON	PROrel	PronType=Rel	32	nsubj	_	XmlId=w_32_00303
+29	du	de.le	ADP	PRE.DETdef	_	30	case:det	_	XmlId=w_32_00304
+30	tout	tout1	PRON	PROind	PronType=Ind	32	obl	_	XmlId=w_32_00305
+31	ne	ne1	ADV	ADVneg	PronType=Neg	32	advmod	_	XmlId=w_32_00306
+32	seroit	être1	VERB	VERcjg	VerbForm=Fin	26	acl:relcl	_	XmlId=w_32_00307
+33	à	à	ADP	PRE	_	35	case	_	XmlId=w_32_00308
+34	sa	son4	DET	DETpos	Poss=Yes	35	det	_	XmlId=w_32_00309
+35	louenge	louange	NOUN	NOMcom	_	32	obl	_	SpaceAfter=No|XmlId=w_32_00310
+36	.	.	PUNCT	PONfrt	_	12	punct	_	XmlId=w_32_00311
+
+# text = par quoy on peult assez avoir d'informations de leur nature et condicion.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 11
+# tags = trans
+1	par	par1	ADP	PRE	_	2	case	_	XmlId=w_32_00460
+2	quoy	quoi	PRON	PROrel	PronType=Rel	6	obl	_	XmlId=w_32_00461
+3	on	on	PRON	PROind	PronType=Ind	4	nsubj	_	XmlId=w_32_00462
+4	peult	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_00463
+5	assez	assez	ADV	ADVgen	_	8	advmod	_	XmlId=w_32_00464
+6	avoir	avoir1	VERB	VERinf	VerbForm=Inf	4	xcomp	_	XmlId=w_32_00465
+7	d'	de	ADP	PRE	_	8	case	_	SpaceAfter=No|XmlId=w_32_00466
+8	informations	information	NOUN	NOMcom	_	6	obj	_	XmlId=w_32_00467
+9	de	de	ADP	PRE	_	11	case	_	XmlId=w_32_00468
+10	leur	leur2	DET	DETpos	Poss=Yes	11	det	_	XmlId=w_32_00469
+11	nature	nature	NOUN	NOMcom	_	8	nmod	_	XmlId=w_32_00470
+12	et	et	CCONJ	CONcoo	_	13	cc	_	XmlId=w_32_00471
+13	condicion	condition	NOUN	NOMcom	_	11	conj	_	SpaceAfter=No|XmlId=w_32_00472
+14	.	.	PUNCT	PONfrt	_	4	punct	_	XmlId=w_32_00473
+
+# text = par laquelle oeuvre se pourra congnoistre la grandeur du prince duquel vous parleray, et aussi de vostre entendement.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 14
+# tags = trans
+1	par	par1	ADP	PRE	_	3	case	_	XmlId=w_32_00532
+2	laquelle	lequel	DET	DETrel	PronType=Rel	3	det	_	XmlId=w_32_00533
+3	oeuvre	oeuvre	NOUN	NOMcom	_	6	obl	_	XmlId=w_32_00534
+4	se	se1	PRON	PROper	PronType=Prs	6	expl	_	XmlId=w_32_00535
+5	pourra	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_00536
+6	congnoistre	connaître	VERB	VERinf	VerbForm=Inf	5	xcomp	_	XmlId=w_32_00537
+7	la	le	DET	DETdef	Definite=Def|PronType=Art	8	det	_	XmlId=w_32_00538
+8	grandeur	grandeur	NOUN	NOMcom	_	6	obj	_	XmlId=w_32_00539
+9	du	de.le	ADP	PRE.DETdef	_	10	case:det	_	XmlId=w_32_00540
+10	prince	prince1	NOUN	NOMcom	_	8	nmod	_	XmlId=w_32_00541
+11	duquel	de.lequel	ADP	PRE.PROrel	_	13	obl	_	XmlId=w_32_00542
+12	vous	vous	PRON	PROper	PronType=Prs	13	iobj	_	XmlId=w_32_00543
+13	parleray	parler	VERB	VERcjg	VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No|XmlId=w_32_00544
+14	,	,	PUNCT	PONfbl	_	19	punct	_	XmlId=w_32_00545
+15	et	et	CCONJ	CONcoo	_	19	cc	_	XmlId=w_32_00546
+16	aussi	aussi	ADV	ADVgen	_	19	advmod	_	XmlId=w_32_00547
+17	de	de	ADP	PRE	_	19	case	_	XmlId=w_32_00548
+18	vostre	votre	DET	DETpos	Poss=Yes	19	det	_	XmlId=w_32_00549
+19	entendement	entendement	NOUN	NOMcom	_	10	conj	_	SpaceAfter=No|XmlId=w_32_00550
+20	.	.	PUNCT	PONfrt	_	5	punct	_	XmlId=w_32_00551
+
+# text = Mais pour obligation d'honneur et grans privaultéz et biensfaictz, sans jamais interrompre jusques à la mort que l'un ou l'autre n'y feust, nul n'en devroit avoir meilleure souvenance que moy, et aussi pour les pertes et douleurs que j'ay receues depuis son trespas, qui est bien pour estre revenu à ma memoire les graces que j'ay receues de luy, combien que c'est chose acoustumée que, après le decès de si grand et puissant prince, les mutations soyent grandes,
+# newdoc_id = Commyn_1497_prose
+# sent_id = 16
+# tags = trans
+1	Mais	mais1	CCONJ	CONcoo	_	32	cc:nc	_	XmlId=w_32_00579
+2	pour	pour	ADP	PRE	_	3	case	_	XmlId=w_32_00580
+3	obligation	obligation	NOUN	NOMcom	_	33	obl	_	XmlId=w_32_00581
+4	d'	de	ADP	PRE	_	5	case	_	SpaceAfter=No|XmlId=w_32_00582
+5	honneur	honneur	NOUN	NOMcom	_	3	nmod	_	XmlId=w_32_00583
+6	et	et	CCONJ	CONcoo	_	8	cc	_	XmlId=w_32_00584
+7	grans	grand	ADJ	ADJqua	_	8	amod	_	XmlId=w_32_00585
+8	privaultéz	privauté	NOUN	NOMcom	_	3	conj	_	XmlId=w_32_00586
+9	et	et	CCONJ	CONcoo	_	10	cc	_	XmlId=w_32_00587
+10	biensfaictz	bienfait	NOUN	NOMcom	_	8	conj	_	SpaceAfter=No|XmlId=w_32_00588
+11	,	,	PUNCT	PONfbl	_	14	punct	_	XmlId=w_32_00589
+12	sans	sans	ADP	PRE	_	14	mark	_	XmlId=w_32_00590
+13	jamais	jamais	ADV	ADVgen	_	14	advmod	_	XmlId=w_32_00591
+14	interrompre	interrompre	VERB	VERinf	VerbForm=Inf	33	xcomp	_	XmlId=w_32_00592
+15	jusques	jusque	ADP	PRE	_	18	case	_	XmlId=w_32_00593
+16	à	à	ADP	PRE	_	18	case	_	XmlId=w_32_00594
+17	la	le	DET	DETdef	Definite=Def|PronType=Art	18	det	_	XmlId=w_32_00595
+18	mort	mort1	NOUN	NOMcom	_	14	obl	_	XmlId=w_32_00596
+19	que	que	SCONJ	CONsub	_	27	mark	_	XmlId=w_32_00597
+20	l'	le	DET	DETdef	Definite=Def|PronType=Art	21	det	_	SpaceAfter=No|XmlId=w_32_00598
+21	un	un	PRON	PROind	PronType=Ind	27	nsubj	_	XmlId=w_32_00599
+22	ou	ou	CCONJ	CONcoo	_	24	cc	_	XmlId=w_32_00600
+23	l'	le	DET	DETdef	Definite=Def|PronType=Art	24	det	_	SpaceAfter=No|XmlId=w_32_00601
+24	autre	autre	PRON	PROind	PronType=Ind	21	conj	_	XmlId=w_32_00602
+25	n'	ne1	ADV	ADVneg	PronType=Neg	27	advmod	_	SpaceAfter=No|XmlId=w_32_00603
+26	y	y2	ADV	PROadv	_	27	obl:advmod	_	XmlId=w_32_00604
+27	feust	être1	VERB	VERcjg	VerbForm=Fin	14	advcl	_	SpaceAfter=No|XmlId=w_32_00605
+28	,	,	PUNCT	PONfbl	_	14	punct	_	XmlId=w_32_00606
+29	nul	nul	PRON	PROind	PronType=Ind	32	nsubj	_	XmlId=w_32_00607
+30	n'	ne1	ADV	ADVneg	PronType=Neg	33	advmod	_	SpaceAfter=No|XmlId=w_32_00608
+31	en	en2	ADV	PROadv	_	35	nmod	_	XmlId=w_32_00609
+32	devroit	devoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_00610
+33	avoir	avoir1	VERB	VERinf	VerbForm=Inf	32	xcomp	_	XmlId=w_32_00611
+34	meilleure	meilleur	ADJ	ADJqua	_	35	amod	_	XmlId=w_32_00612
+35	souvenance	souvenance	NOUN	NOMcom	_	33	obj	_	XmlId=w_32_00613
+36	que	que	SCONJ	CONsub	_	37	case	_	XmlId=w_32_00614
+37	moy	moi	PRON	PROper	PronType=Prs	34	obl	_	SpaceAfter=No|XmlId=w_32_00615
+38	,	,	PUNCT	PONfbl	_	43	punct	_	XmlId=w_32_00616
+39	et	et	CCONJ	CONcoo	_	43	cc	_	XmlId=w_32_00617
+40	aussi	aussi	ADV	ADVgen	_	43	advmod	_	XmlId=w_32_00618
+41	pour	pour	ADP	PRE	_	43	case	_	XmlId=w_32_00619
+42	les	le	DET	DETdef	Definite=Def|PronType=Art	43	det	_	XmlId=w_32_00620
+43	pertes	perte	NOUN	NOMcom	_	3	conj	_	XmlId=w_32_00621
+44	et	et	CCONJ	CONcoo	_	45	cc	_	XmlId=w_32_00622
+45	douleurs	douleur	NOUN	NOMcom	_	43	conj	_	XmlId=w_32_00623
+46	que	que	PRON	PROrel	PronType=Rel	49	obj	_	XmlId=w_32_00624
+47	j'	je	PRON	PROper	PronType=Prs	49	nsubj	_	SpaceAfter=No|XmlId=w_32_00625
+48	ay	avoir	AUX	VERcjg	VerbForm=Fin	49	aux	_	XmlId=w_32_00626
+49	receues	recevoir	VERB	VERppe	Tense=Past|VerbForm=Part	43	acl:relcl	_	XmlId=w_32_00627
+50	depuis	depuis	ADP	PRE	_	52	case	_	XmlId=w_32_00628
+51	son	son4	DET	DETpos	Poss=Yes	52	det	_	XmlId=w_32_00629
+52	trespas	trépas	NOUN	NOMcom	_	49	obl	_	SpaceAfter=No|XmlId=w_32_00630
+53	,	,	PUNCT	PONfbl	_	55	punct	_	XmlId=w_32_00631
+54	qui	qui1	PRON	PROrel	PronType=Rel	55	nsubj	_	XmlId=w_32_00632
+55	est	être1	VERB	VERcjg	VerbForm=Fin	43	acl:relcl	_	XmlId=w_32_00633
+56	bien	bien	ADV	ADVgen	_	55	advmod	_	XmlId=w_32_00634
+57	pour	pour	ADP	PRE	_	59	mark	_	XmlId=w_32_00635
+58	estre	être	AUX	VERinf	VerbForm=Inf	59	aux	_	XmlId=w_32_00636
+59	revenu	revenir	VERB	VERppe	Tense=Past|VerbForm=Part	55	xcomp	_	XmlId=w_32_00637
+60	à	à	ADP	PRE	_	62	case	_	XmlId=w_32_00638
+61	ma	mon1	DET	DETpos	Poss=Yes	62	det	_	XmlId=w_32_00639
+62	memoire	mémoire	NOUN	NOMcom	_	59	obl	_	XmlId=w_32_00640
+63	les	le	DET	DETdef	Definite=Def|PronType=Art	64	det	_	XmlId=w_32_00641
+64	graces	grâce	NOUN	NOMcom	_	59	obl	_	XmlId=w_32_00642
+65	que	que	PRON	PROrel	PronType=Rel	68	obj	_	XmlId=w_32_00643
+66	j'	je	PRON	PROper	PronType=Prs	68	nsubj	_	SpaceAfter=No|XmlId=w_32_00644
+67	ay	avoir	AUX	VERcjg	VerbForm=Fin	68	aux	_	XmlId=w_32_00645
+68	receues	recevoir	VERB	VERppe	Tense=Past|VerbForm=Part	64	acl:relcl	_	XmlId=w_32_00646
+69	de	de	ADP	PRE	_	70	case	_	XmlId=w_32_00647
+70	luy	lui	PRON	PROper	PronType=Prs	68	obl	_	SpaceAfter=No|XmlId=w_32_00648
+71	,	,	PUNCT	PONfbl	_	55	punct	_	XmlId=w_32_00649
+72	combien	combien	ADV	ADVgen	_	77	mark	_	XmlId=w_32_00650
+73	que	que	SCONJ	CONsub	_	72	fixed	_	XmlId=w_32_00651
+74	c'	ce1	PRON	PROdem	PronType=Dem	77	nsubj	_	SpaceAfter=No|XmlId=w_32_00652
+75	est	être	AUX	VERcjg	VerbForm=Fin	77	cop	_	XmlId=w_32_00653
+76	chose	chose	NOUN	NOMcom	_	49	advcl	_	XmlId=w_32_00654
+77	acoustumée	accoutumer	VERB	VERppe	Tense=Past|VerbForm=Part	76	acl	_	XmlId=w_32_00655
+78	que	que	SCONJ	CONsub	_	93	mark	_	SpaceAfter=No|XmlId=w_32_00656
+79	,	,	PUNCT	PONfbl	_	82	punct	_	XmlId=w_32_00657
+80	après	après	ADP	PRE	_	82	case	_	XmlId=w_32_00658
+81	le	le	DET	DETdef	Definite=Def|PronType=Art	82	det	_	XmlId=w_32_00659
+82	decès	décès	NOUN	NOMcom	_	93	obl	_	XmlId=w_32_00660
+83	de	de	ADP	PRE	_	88	case	_	XmlId=w_32_00661
+84	si	si4	ADV	ADVgen	_	85	advmod	_	XmlId=w_32_00662
+85	grand	grand	ADJ	ADJqua	_	88	amod	_	XmlId=w_32_00663
+86	et	et	CCONJ	CONcoo	_	87	cc	_	XmlId=w_32_00664
+87	puissant	puissant	ADJ	ADJqua	_	85	conj	_	XmlId=w_32_00665
+88	prince	prince1	NOUN	NOMcom	_	82	nmod	_	SpaceAfter=No|XmlId=w_32_00666
+89	,	,	PUNCT	PONfbl	_	82	punct	_	XmlId=w_32_00667
+90	les	le	DET	DETdef	Definite=Def|PronType=Art	91	det	_	XmlId=w_32_00668
+91	mutations	mutation	NOUN	NOMcom	_	93	nsubj	_	XmlId=w_32_00669
+92	soyent	être	AUX	VERcjg	VerbForm=Fin	93	cop	_	XmlId=w_32_00670
+93	grandes	grand	ADJ	ADJqua	_	76	acl	_	SpaceAfter=No|XmlId=w_32_00671
+94	,	,	PUNCT	PONfbl	_	43	punct	_	XmlId=w_32_00672
+
+# text = Au saillir de mon enfance et en l'aage de povoir monter à cheval, fus amené à Lisle devers le duc Charles de Bourgoigne, lors appellé conte de Charroloys, lequel me print en son service,
+# newdoc_id = Commyn_1497_prose
+# sent_id = 22
+# tags = trans
+1	Au	à.le	ADP	PRE.DETdef	_	2	case:det	_	XmlId=w_32_00780
+2	saillir	saillir	NOUN	NOMcom	_	17	obl	_	XmlId=w_32_00781
+3	de	de	ADP	PRE	_	5	case	_	XmlId=w_32_00782
+4	mon	mon1	DET	DETpos	Poss=Yes	5	det	_	XmlId=w_32_00783
+5	enfance	enfance	NOUN	NOMcom	_	2	nmod	_	XmlId=w_32_00784
+6	et	et	CCONJ	CONcoo	_	9	cc	_	XmlId=w_32_00785
+7	en	en1	ADP	PRE	_	9	case	_	XmlId=w_32_00786
+8	l'	le	DET	DETdef	Definite=Def|PronType=Art	9	det	_	SpaceAfter=No|XmlId=w_32_00787
+9	aage	âge	NOUN	NOMcom	_	2	conj	_	XmlId=w_32_00788
+10	de	de	ADP	PRE	_	11	mark	_	XmlId=w_32_00789
+11	povoir	pouvoir	VERB	VERinf	VerbForm=Inf	9	acl	_	XmlId=w_32_00790
+12	monter	monter	VERB	VERinf	VerbForm=Inf	11	xcomp	_	XmlId=w_32_00791
+13	à	à	ADP	PRE	_	14	case	_	XmlId=w_32_00792
+14	cheval	cheval	NOUN	NOMcom	_	12	obl	_	SpaceAfter=No|XmlId=w_32_00793
+15	,	,	PUNCT	PONfbl	_	17	punct	_	XmlId=w_32_00794
+16	fus	être	AUX	VERcjg	VerbForm=Fin	17	aux	_	XmlId=w_32_00795
+17	amené	amener	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	XmlId=w_32_00796
+18	à	à	ADP	PRE	_	19	case	_	XmlId=w_32_00797
+19	Lisle	Lille	PROPN	NOMpro	_	17	obl	_	XmlId=w_32_00798
+20	devers	devers	ADP	PRE	_	22	case	_	XmlId=w_32_00799
+21	le	le	DET	DETdef	Definite=Def|PronType=Art	22	det	_	XmlId=w_32_00800
+22	duc	duc1	NOUN	NOMcom	_	17	obl	_	XmlId=w_32_00801
+23	Charles	Charles	PROPN	NOMpro	_	22	flat	_	XmlId=w_32_00802
+24	de	de	ADP	PRE	_	25	case	_	XmlId=w_32_00803
+25	Bourgoigne	Bourgogne	PROPN	NOMpro	_	23	nmod	_	SpaceAfter=No|XmlId=w_32_00804
+26	,	,	PUNCT	PONfbl	_	28	punct	_	XmlId=w_32_00805
+27	lors	lors	ADV	ADVgen	_	28	advmod	_	XmlId=w_32_00806
+28	appellé	appeler	VERB	VERppe	Tense=Past|VerbForm=Part	22	acl	_	XmlId=w_32_00807
+29	conte	comte	NOUN	NOMcom	_	28	xcomp	_	XmlId=w_32_00808
+30	de	de	ADP	PRE	_	31	case	_	XmlId=w_32_00809
+31	Charroloys	Charolais	PROPN	NOMpro	_	29	nmod	_	SpaceAfter=No|XmlId=w_32_00810
+32	,	,	PUNCT	PONfbl	_	28	punct	_	XmlId=w_32_00811
+33	lequel	lequel	PRON	PROrel	PronType=Rel	35	nsubj	_	XmlId=w_32_00812
+34	me	me	PRON	PROper	PronType=Prs	35	obj	_	XmlId=w_32_00813
+35	print	prendre	VERB	VERcjg	VerbForm=Fin	22	acl:relcl	_	XmlId=w_32_00814
+36	en	en1	ADP	PRE	_	38	case	_	XmlId=w_32_00815
+37	son	son4	DET	DETpos	Poss=Yes	38	det	_	XmlId=w_32_00816
+38	service	service	NOUN	NOMcom	_	35	obl	_	SpaceAfter=No|XmlId=w_32_00817
+39	,	,	PUNCT	PONfbl	_	17	punct	_	XmlId=w_32_00818
+
+# text = Et faisoit ledict Morvilier ce cas si enorme, si crimineux, que nulle chose qui se peult dire à ce propos pour faire honte et vitupère à ung prince il ne dist.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 32
+# tags = trans
+1	Et	et	CCONJ	CONcoo	_	2	cc:nc	_	XmlId=w_32_01382
+2	faisoit	faire	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_01383
+3	ledict	ledit	DET	DETcom	Definite=Com	4	det	_	XmlId=w_32_01384
+4	Morvilier	Morvilliers	PROPN	NOMpro	_	2	nsubj	_	XmlId=w_32_01385
+5	ce	ce2	DET	DETdem	PronType=Dem	6	det	_	XmlId=w_32_01386
+6	cas	cas1	NOUN	NOMcom	_	2	obj	_	XmlId=w_32_01387
+7	si	si4	ADV	ADVgen	_	8	advmod	_	XmlId=w_32_01388
+8	enorme	énorme	ADJ	ADJqua	_	2	xcomp	_	SpaceAfter=No|XmlId=w_32_01389
+9	,	,	PUNCT	PONfbl	_	11	punct	_	XmlId=w_32_01390
+10	si	si4	ADV	ADVgen	_	11	advmod	_	XmlId=w_32_01391
+11	crimineux	criminel	ADJ	ADJqua	_	8	conj	_	SpaceAfter=No|XmlId=w_32_01392
+12	,	,	PUNCT	PONfbl	_	8	punct	_	XmlId=w_32_01393
+13	que	que	SCONJ	CONsub	_	33	mark	_	XmlId=w_32_01394
+14	nulle	nul	DET	DETind	PronType=Ind	15	det	_	XmlId=w_32_01395
+15	chose	chose	NOUN	NOMcom	_	33	obj	_	XmlId=w_32_01396
+16	qui	qui1	PRON	PROrel	PronType=Rel	18	nsubj	_	XmlId=w_32_01397
+17	se	se1	PRON	PROper	PronType=Prs	19	expl	_	XmlId=w_32_01398
+18	peult	pouvoir	VERB	VERcjg	VerbForm=Fin	15	acl:relcl	_	XmlId=w_32_01399
+19	dire	dire1	VERB	VERinf	VerbForm=Inf	18	xcomp	_	XmlId=w_32_01400
+20	à	à	ADP	PRE	_	22	case	_	XmlId=w_32_01401
+21	ce	ce2	DET	DETdem	PronType=Dem	22	det	_	XmlId=w_32_01402
+22	propos	propos	NOUN	NOMcom	_	19	obl	_	XmlId=w_32_01403
+23	pour	pour	ADP	PRE	_	24	mark	_	XmlId=w_32_01404
+24	faire	faire	VERB	VERinf	VerbForm=Inf	18	advcl	_	XmlId=w_32_01405
+25	honte	honte	NOUN	NOMcom	_	24	obj	_	XmlId=w_32_01406
+26	et	et	CCONJ	CONcoo	_	27	cc	_	XmlId=w_32_01407
+27	vitupère	vitupère	NOUN	NOMcom	_	25	conj	_	XmlId=w_32_01408
+28	à	à	ADP	PRE	_	30	case	_	XmlId=w_32_01409
+29	ung	un	DET	DETndf	Definite=Ind|PronType=Art	30	det	_	XmlId=w_32_01410
+30	prince	prince1	NOUN	NOMcom	_	24	obl	_	XmlId=w_32_01411
+31	il	il	PRON	PROper	PronType=Prs	33	nsubj	_	XmlId=w_32_01412
+32	ne	ne1	ADV	ADVneg	PronType=Neg	33	advmod	_	XmlId=w_32_01413
+33	dist	dire1	VERB	VERcjg	VerbForm=Fin	8	advcl	_	SpaceAfter=No|XmlId=w_32_01414
+34	.	.	PUNCT	PONfrt	_	2	punct	_	XmlId=w_32_01415
+
+# text = Ledict conte supplia par plusieurs foys à son père qu'il peust respondre,
+# newdoc_id = Commyn_1497_prose
+# sent_id = 36
+# tags = trans
+1	Ledict	ledit	DET	DETcom	Definite=Com	2	det	_	XmlId=w_32_01479
+2	conte	comte	NOUN	NOMcom	_	3	nsubj	_	XmlId=w_32_01480
+3	supplia	supplier	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_01481
+4	par	par1	ADP	PRE	_	6	case	_	XmlId=w_32_01482
+5	plusieurs	plusieurs	DET	DETind	PronType=Ind	6	det	_	XmlId=w_32_01483
+6	foys	fois	NOUN	NOMcom	_	3	obl	_	XmlId=w_32_01484
+7	à	à	ADP	PRE	_	9	case	_	XmlId=w_32_01485
+8	son	son4	DET	DETpos	Poss=Yes	9	det	_	XmlId=w_32_01486
+9	père	père	NOUN	NOMcom	_	3	obl	_	XmlId=w_32_01487
+10	qu'	que	SCONJ	CONsub	_	12	mark	_	SpaceAfter=No|XmlId=w_32_01488
+11	il	il	PRON	PROper	PronType=Prs	12	nsubj	_	XmlId=w_32_01489
+12	peust	pouvoir	VERB	VERcjg	VerbForm=Fin	3	ccomp	_	XmlId=w_32_01490
+13	respondre	répondre	VERB	VERinf	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|XmlId=w_32_01491
+14	,	,	PUNCT	PONfbl	_	3	punct	_	XmlId=w_32_01492
+
+# text = « J'ay respondu pour toy, comme il me semble que père doit respondre pour filz.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 38
+# tags = trans
+1	«	«	PUNCT	PONpga	_	4	punct	_	XmlId=w_32_01497
+2	J'	je	PRON	PROper	PronType=Prs	4	nsubj	_	SpaceAfter=No|XmlId=w_32_01498
+3	ay	avoir	AUX	VERcjg	VerbForm=Fin	4	aux	_	XmlId=w_32_01499
+4	respondu	répondre	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	XmlId=w_32_01500
+5	pour	pour	ADP	PRE	_	6	case	_	XmlId=w_32_01501
+6	toy	toi	PRON	PROper	PronType=Prs	4	obl	_	SpaceAfter=No|XmlId=w_32_01502
+7	,	,	PUNCT	PONfbl	_	4	punct	_	XmlId=w_32_01503
+8	comme	comme	SCONJ	CONsub	_	11	mark	_	XmlId=w_32_01504
+9	il	il	PRON	PROimp	PronType=Prs	11	expl	_	XmlId=w_32_01505
+10	me	me	PRON	PROper	PronType=Prs	11	iobj	_	XmlId=w_32_01506
+11	semble	sembler1	VERB	VERcjg	VerbForm=Fin	4	advcl	_	XmlId=w_32_01507
+12	que	que	SCONJ	CONsub	_	14	mark	_	XmlId=w_32_01508
+13	père	père	NOUN	NOMcom	_	14	nsubj	_	XmlId=w_32_01509
+14	doit	devoir	VERB	VERcjg	VerbForm=Fin	11	ccomp	_	XmlId=w_32_01510
+15	respondre	répondre	VERB	VERinf	VerbForm=Inf	14	xcomp	_	XmlId=w_32_01511
+16	pour	pour	ADP	PRE	_	17	case	_	XmlId=w_32_01512
+17	filz	fils	NOUN	NOMcom	_	15	obl	_	SpaceAfter=No|XmlId=w_32_01513
+18	.	.	PUNCT	PONfrt	_	4	punct	_	XmlId=w_32_01514
+
+# text = Encores disoit ledict Morvillier qu'il ne povoit penser qui avoit meu ledict conte de prendre ceste alliance avecques ledict duc de Bretaigne, sinon une pension que le roy luy avoit donné avec le gouvernement de Normandie que le roy luy avoit osté.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 41
+# tags = trans
+1	Encores	encore	ADV	ADVgen	_	2	advmod	_	XmlId=w_32_01538
+2	disoit	dire1	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_01539
+3	ledict	ledit	DET	DETcom	Definite=Com	4	det	_	XmlId=w_32_01540
+4	Morvillier	Morvilliers	PROPN	NOMpro	_	2	nsubj	_	XmlId=w_32_01541
+5	qu'	que	SCONJ	CONsub	_	8	mark	_	SpaceAfter=No|XmlId=w_32_01542
+6	il	il	PRON	PROper	PronType=Prs	8	nsubj	_	XmlId=w_32_01543
+7	ne	ne1	ADV	ADVneg	PronType=Neg	8	advmod	_	XmlId=w_32_01544
+8	povoit	pouvoir	VERB	VERcjg	VerbForm=Fin	2	ccomp	_	XmlId=w_32_01545
+9	penser	penser	VERB	VERinf	VerbForm=Inf	8	xcomp	_	XmlId=w_32_01546
+10	qui	qui1	PRON	PROrel	PronType=Rel	12	nsubj	_	XmlId=w_32_01547
+11	avoit	avoir	AUX	VERcjg	VerbForm=Fin	12	aux	_	XmlId=w_32_01548
+12	meu	mouvoir	VERB	VERppe	Tense=Past|VerbForm=Part	9	ccomp	_	XmlId=w_32_01549
+13	ledict	ledit	DET	DETcom	Definite=Com	14	det	_	XmlId=w_32_01550
+14	conte	comte	NOUN	NOMcom	_	12	obj	_	XmlId=w_32_01551
+15	de	de	ADP	PRE	_	16	mark	_	XmlId=w_32_01552
+16	prendre	prendre	VERB	VERinf	VerbForm=Inf	12	xcomp	_	XmlId=w_32_01553
+17	ceste	cist	DET	DETdem	PronType=Dem	18	det	_	XmlId=w_32_01554
+18	alliance	alliance1	NOUN	NOMcom	_	16	obj	_	XmlId=w_32_01555
+19	avecques	avec	ADP	PRE	_	21	case	_	XmlId=w_32_01556
+20	ledict	ledit	DET	DETcom	Definite=Com	21	det	_	XmlId=w_32_01557
+21	duc	duc1	NOUN	NOMcom	_	16	obl	_	XmlId=w_32_01558
+22	de	de	ADP	PRE	_	23	case	_	XmlId=w_32_01559
+23	Bretaigne	Bretagne	PROPN	NOMpro	_	21	nmod	_	SpaceAfter=No|XmlId=w_32_01560
+24	,	,	PUNCT	PONfbl	_	12	punct	_	XmlId=w_32_01561
+25	sinon	sinon	SCONJ	CONsub	_	27	case	_	XmlId=w_32_01562
+26	une	un	DET	DETndf	Definite=Ind|PronType=Art	27	det	_	XmlId=w_32_01563
+27	pension	pension	NOUN	NOMcom	_	10	nmod	_	XmlId=w_32_01564
+28	que	que	PRON	PROrel	PronType=Rel	33	obj	_	XmlId=w_32_01565
+29	le	le	DET	DETdef	Definite=Def|PronType=Art	30	det	_	XmlId=w_32_01566
+30	roy	roi1	NOUN	NOMcom	_	33	nsubj	_	XmlId=w_32_01567
+31	luy	lui	PRON	PROper	PronType=Prs	33	iobj	_	XmlId=w_32_01568
+32	avoit	avoir	AUX	VERcjg	VerbForm=Fin	33	aux	_	XmlId=w_32_01569
+33	donné	donner	VERB	VERppe	Tense=Past|VerbForm=Part	27	acl:relcl	_	XmlId=w_32_01570
+34	avec	avec	ADP	PRE	_	36	case	_	XmlId=w_32_01571
+35	le	le	DET	DETdef	Definite=Def|PronType=Art	36	det	_	XmlId=w_32_01572
+36	gouvernement	gouvernement	NOUN	NOMcom	_	33	obl	_	XmlId=w_32_01573
+37	de	de	ADP	PRE	_	38	case	_	XmlId=w_32_01574
+38	Normandie	Normandie	PROPN	NOMpro	_	36	nmod	_	XmlId=w_32_01575
+39	que	que	PRON	PROrel	PronType=Rel	44	obj	_	XmlId=w_32_01576
+40	le	le	DET	DETdef	Definite=Def|PronType=Art	41	det	_	XmlId=w_32_01577
+41	roy	roi1	NOUN	NOMcom	_	44	nsubj	_	XmlId=w_32_01578
+42	luy	lui	PRON	PROper	PronType=Prs	44	iobj	_	XmlId=w_32_01579
+43	avoit	avoir	AUX	VERcjg	VerbForm=Fin	44	aux	_	XmlId=w_32_01580
+44	osté	ôter	VERB	VERppe	Tense=Past|VerbForm=Part	36	acl:relcl	_	SpaceAfter=No|XmlId=w_32_01581
+45	.	.	PUNCT	PONfrt	_	2	punct	_	XmlId=w_32_01582
+
+# text = Après ce propos, commença à descharger le duc de Bretaigne et luy aussi, disant qu'il estoit vray que ledict duc de Bretaigne et luy avoyent prins alliance et amitié ensemble et qu'ilz s'estoient faitz frères d'armes, mais en riens n'entendoyent cette alliance au prejudice du roy et de son royaulme, mais pour le servir et soustenir, se besoing en avoit ; et que, touchant la pension qui luy avoit esté ostée, que jamais n'en avoit eu que ung quartier montant neuf mil francs, et que jamais n'avoit requis ladicte pension ne le gouvernement de Normandie ; et que moyennant qu'il eust la grace de son père, il se povoit bien passer de tous autres biensfaictz.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 47
+# tags = trans
+1	Après	après	ADP	PRE	_	3	case	_	XmlId=w_32_01675
+2	ce	ce2	DET	DETdem	PronType=Dem	3	det	_	XmlId=w_32_01676
+3	propos	propos	NOUN	NOMcom	_	5	obl	_	SpaceAfter=No|XmlId=w_32_01677
+4	,	,	PUNCT	PONfbl	_	5	punct	_	XmlId=w_32_01678
+5	commença	commencer	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_01679
+6	à	à	ADP	PRE	_	7	mark	_	XmlId=w_32_01680
+7	descharger	décharger	VERB	VERinf	VerbForm=Inf	5	xcomp	_	XmlId=w_32_01681
+8	le	le	DET	DETdef	Definite=Def|PronType=Art	9	det	_	XmlId=w_32_01682
+9	duc	duc1	NOUN	NOMcom	_	7	obj	_	XmlId=w_32_01683
+10	de	de	ADP	PRE	_	11	case	_	XmlId=w_32_01684
+11	Bretaigne	Bretagne	PROPN	NOMpro	_	9	nmod	_	XmlId=w_32_01685
+12	et	et	CCONJ	CONcoo	_	13	cc	_	XmlId=w_32_01686
+13	luy	lui	PRON	PROper	PronType=Prs	9	conj	_	XmlId=w_32_01687
+14	aussi	aussi	ADV	ADVgen	_	13	advmod	_	SpaceAfter=No|XmlId=w_32_01688
+15	,	,	PUNCT	PONfbl	_	16	punct	_	XmlId=w_32_01689
+16	disant	dire1	VERB	VERppa	Tense=Pres|VerbForm=Part	7	advcl	_	XmlId=w_32_01690
+17	qu'	que	SCONJ	CONsub	_	20	mark	_	SpaceAfter=No|XmlId=w_32_01691
+18	il	il	PRON	PROimp	PronType=Prs	20	expl	_	XmlId=w_32_01692
+19	estoit	être	AUX	VERcjg	VerbForm=Fin	20	cop	_	XmlId=w_32_01693
+20	vray	1	ADJ	ADJqua	_	16	ccomp	_	XmlId=w_32_01694
+21	que	que	SCONJ	CONsub	_	29	mark	_	XmlId=w_32_01695
+22	ledict	ledit	DET	DETcom	Definite=Com	23	det	_	XmlId=w_32_01696
+23	duc	duc1	NOUN	NOMcom	_	29	nsubj	_	XmlId=w_32_01697
+24	de	de	ADP	PRE	_	25	case	_	XmlId=w_32_01698
+25	Bretaigne	Bretagne	PROPN	NOMpro	_	23	nmod	_	XmlId=w_32_01699
+26	et	et	CCONJ	CONcoo	_	27	cc	_	XmlId=w_32_01700
+27	luy	lui	PRON	PROper	PronType=Prs	23	conj	_	XmlId=w_32_01701
+28	avoyent	avoir	AUX	VERcjg	VerbForm=Fin	29	aux	_	XmlId=w_32_01702
+29	prins	prendre	VERB	VERppe	Tense=Past|VerbForm=Part	20	csubj	_	XmlId=w_32_01703
+30	alliance	alliance1	NOUN	NOMcom	_	29	obj	_	XmlId=w_32_01704
+31	et	et	CCONJ	CONcoo	_	32	cc	_	XmlId=w_32_01705
+32	amitié	amitié	NOUN	NOMcom	_	30	conj	_	XmlId=w_32_01706
+33	ensemble	ensemble	ADV	ADVgen	_	29	advmod	_	XmlId=w_32_01707
+34	et	et	CCONJ	CONcoo	_	39	cc	_	XmlId=w_32_01708
+35	qu'	que	SCONJ	CONsub	_	39	mark	_	SpaceAfter=No|XmlId=w_32_01709
+36	ilz	il	PRON	PROper	PronType=Prs	39	nsubj	_	XmlId=w_32_01710
+37	s'	se1	PRON	PROper	PronType=Prs	39	expl	_	SpaceAfter=No|XmlId=w_32_01711
+38	estoient	être	AUX	VERcjg	VerbForm=Fin	39	aux	_	XmlId=w_32_01712
+39	faitz	faire	VERB	VERppe	Tense=Past|VerbForm=Part	29	conj	_	XmlId=w_32_01713
+40	frères	frère	NOUN	NOMcom	_	39	xcomp	_	XmlId=w_32_01714
+41	d'	de	ADP	PRE	_	42	case	_	SpaceAfter=No|XmlId=w_32_01715
+42	armes	arme	NOUN	NOMcom	_	40	nmod	_	SpaceAfter=No|XmlId=w_32_01716
+43	,	,	PUNCT	PONfbl	_	48	punct	_	XmlId=w_32_01717
+44	mais	mais1	CCONJ	CONcoo	_	48	cc	_	XmlId=w_32_01718
+45	en	en1	ADP	PRE	_	46	case	_	XmlId=w_32_01719
+46	riens	rien	PRON	PROind	PronType=Ind	48	obl	_	XmlId=w_32_01720
+47	n'	ne1	ADV	ADVneg	PronType=Neg	48	advmod	_	SpaceAfter=No|XmlId=w_32_01721
+48	entendoyent	entendre	VERB	VERcjg	VerbForm=Fin	29	conj	_	XmlId=w_32_01722
+49	cette	cist	DET	DETdem	PronType=Dem	50	det	_	XmlId=w_32_01723
+50	alliance	alliance1	NOUN	NOMcom	_	48	obj	_	XmlId=w_32_01724
+51	au	à.le	ADP	PRE.DETdef	_	52	case:det	_	XmlId=w_32_01725
+52	prejudice	préjudice	NOUN	NOMcom	_	48	obl	_	XmlId=w_32_01726
+53	du	de.le	ADP	PRE.DETdef	_	54	case:det	_	XmlId=w_32_01727
+54	roy	roi1	NOUN	NOMcom	_	52	nmod	_	XmlId=w_32_01728
+55	et	et	CCONJ	CONcoo	_	58	cc	_	XmlId=w_32_01729
+56	de	de	ADP	PRE	_	58	case	_	XmlId=w_32_01730
+57	son	son4	DET	DETpos	Poss=Yes	58	det	_	XmlId=w_32_01731
+58	royaulme	royaume	NOUN	NOMcom	_	54	conj	_	SpaceAfter=No|XmlId=w_32_01732
+59	,	,	PUNCT	PONfbl	_	48	punct	_	XmlId=w_32_01733
+60	mais	mais1	CCONJ	CONcoo	_	63	cc	_	XmlId=w_32_01734
+61	pour	pour	ADP	PRE	_	63	mark	_	XmlId=w_32_01735
+62	le	le	PRON	PROper	PronType=Prs	63	obj	_	XmlId=w_32_01736
+63	servir	servir	VERB	VERinf	VerbForm=Inf	48	advcl	_	XmlId=w_32_01737
+64	et	et	CCONJ	CONcoo	_	65	cc	_	XmlId=w_32_01738
+65	soustenir	soutenir	VERB	VERinf	VerbForm=Inf	63	conj	_	SpaceAfter=No|XmlId=w_32_01739
+66	,	,	PUNCT	PONfbl	_	63	punct	_	XmlId=w_32_01740
+67	se	si3	SCONJ	CONsub	_	70	mark	_	XmlId=w_32_01741
+68	besoing	besoin	NOUN	NOMcom	_	70	obj	_	XmlId=w_32_01742
+69	en	en2	ADV	PROadv	_	68	nmod	_	XmlId=w_32_01743
+70	avoit	avoir1	VERB	VERcjg	VerbForm=Fin	63	advcl	_	XmlId=w_32_01744
+71	;	;	PUNCT	PONfbl	_	89	punct	_	XmlId=w_32_01745
+72	et	et	CCONJ	CONcoo	_	89	cc	_	XmlId=w_32_01746
+73	que	que	SCONJ	CONsub	_	89	mark	_	SpaceAfter=No|XmlId=w_32_01747
+74	,	,	PUNCT	PONfbl	_	75	punct	_	XmlId=w_32_01748
+75	touchant	toucher	VERB	VERppa	Tense=Pres|VerbForm=Part	89	dep	_	XmlId=w_32_01749
+76	la	le	DET	DETdef	Definite=Def|PronType=Art	77	det	_	XmlId=w_32_01750
+77	pension	pension	NOUN	NOMcom	_	75	obj	_	XmlId=w_32_01751
+78	qui	qui1	PRON	PROrel	PronType=Rel	82	nsubj	_	XmlId=w_32_01752
+79	luy	lui	PRON	PROper	PronType=Prs	82	obl	_	XmlId=w_32_01753
+80	avoit	avoir	AUX	VERcjg	VerbForm=Fin	82	aux	_	XmlId=w_32_01754
+81	esté	être	AUX	VERppe	Tense=Past|VerbForm=Part	82	aux:pass	_	XmlId=w_32_01755
+82	ostée	ôter	VERB	VERppe	Tense=Past|VerbForm=Part	77	acl:relcl	_	SpaceAfter=No|XmlId=w_32_01756
+83	,	,	PUNCT	PONfbl	_	75	punct	_	XmlId=w_32_01757
+84	que	que	X	RED	_	89	mark	_	XmlId=w_32_01758
+85	jamais	jamais	ADV	ADVgen	_	89	advmod	_	XmlId=w_32_01759
+86	n'	ne1	ADV	ADVneg	PronType=Neg	89	advmod	_	SpaceAfter=No|XmlId=w_32_01760
+87	en	en2	ADV	PROadv	_	89	obl	_	XmlId=w_32_01761
+88	avoit	avoir	AUX	VERcjg	VerbForm=Fin	89	aux	_	XmlId=w_32_01762
+89	eu	avoir1	VERB	VERppe	Tense=Past|VerbForm=Part	20	conj	_	XmlId=w_32_01763
+90	que	que	ADV	ADVgen	_	89	advmod	_	XmlId=w_32_01764
+91	ung	un	DET	DETndf	Definite=Ind|PronType=Art	92	det	_	XmlId=w_32_01765
+92	quartier	quartier1	NOUN	NOMcom	_	89	obj	_	XmlId=w_32_01766
+93	montant	monter	VERB	VERppa	Tense=Pres|VerbForm=Part	92	acl	_	XmlId=w_32_01767
+94	neuf	neuf2	DET	DETcar	NumType=Card	93	det	_	XmlId=w_32_01768
+95	mil	mille1	DET	DETcar	NumType=Card	94	flat	_	XmlId=w_32_01769
+96	francs	franc1	NOUN	NOMcom	_	93	obl	_	SpaceAfter=No|XmlId=w_32_01770
+97	,	,	PUNCT	PONfbl	_	103	punct	_	XmlId=w_32_01771
+98	et	et	CCONJ	CONcoo	_	103	cc	_	XmlId=w_32_01772
+99	que	que	SCONJ	CONsub	_	103	mark	_	XmlId=w_32_01773
+100	jamais	jamais	ADV	ADVgen	_	103	advmod	_	XmlId=w_32_01774
+101	n'	ne1	ADV	ADVneg	PronType=Neg	103	advmod	_	SpaceAfter=No|XmlId=w_32_01775
+102	avoit	avoir	AUX	VERcjg	VerbForm=Fin	103	aux	_	XmlId=w_32_01776
+103	requis	requérir	VERB	VERppe	Tense=Past|VerbForm=Part	20	conj	_	XmlId=w_32_01777
+104	ladicte	ledit	DET	DETcom	Definite=Com	105	det	_	XmlId=w_32_01778
+105	pension	pension	NOUN	NOMcom	_	103	obj	_	XmlId=w_32_01779
+106	ne	ne2	CCONJ	CONcoo	_	108	cc	_	XmlId=w_32_01780
+107	le	le	DET	DETdef	Definite=Def|PronType=Art	108	det	_	XmlId=w_32_01781
+108	gouvernement	gouvernement	NOUN	NOMcom	_	105	conj	_	XmlId=w_32_01782
+109	de	de	ADP	PRE	_	110	case	_	XmlId=w_32_01783
+110	Normandie	Normandie	PROPN	NOMpro	_	108	nmod	_	XmlId=w_32_01784
+111	;	;	PUNCT	PONfbl	_	126	punct	_	XmlId=w_32_01785
+112	et	et	CCONJ	CONcoo	_	126	cc	_	XmlId=w_32_01786
+113	que	que	SCONJ	CONsub	_	126	mark	_	XmlId=w_32_01787
+114	moyennant	moyenner	VERB	VERppa	Tense=Pres|VerbForm=Part	117	mark	_	XmlId=w_32_01788
+115	qu'	que	SCONJ	CONsub	_	114	fixed	_	SpaceAfter=No|XmlId=w_32_01789
+116	il	il	PRON	PROper	PronType=Prs	117	nsubj	_	XmlId=w_32_01790
+117	eust	avoir1	VERB	VERcjg	VerbForm=Fin	126	advcl	_	XmlId=w_32_01791
+118	la	le	DET	DETdef	Definite=Def|PronType=Art	119	det	_	XmlId=w_32_01792
+119	grace	grâce	NOUN	NOMcom	_	117	obj	_	XmlId=w_32_01793
+120	de	de	ADP	PRE	_	122	case	_	XmlId=w_32_01794
+121	son	son4	DET	DETpos	Poss=Yes	122	det	_	XmlId=w_32_01795
+122	père	père	NOUN	NOMcom	_	119	nmod	_	SpaceAfter=No|XmlId=w_32_01796
+123	,	,	PUNCT	PONfbl	_	126	punct	_	XmlId=w_32_01797
+124	il	il	PRON	PROper	PronType=Prs	126	nsubj	_	XmlId=w_32_01798
+125	se	se1	PRON	PROper	PronType=Prs	128	expl	_	XmlId=w_32_01799
+126	povoit	pouvoir	VERB	VERcjg	VerbForm=Fin	20	conj	_	XmlId=w_32_01800
+127	bien	bien	ADV	ADVgen	_	128	advmod	_	XmlId=w_32_01801
+128	passer	passer1	VERB	VERinf	VerbForm=Inf	126	xcomp	_	XmlId=w_32_01802
+129	de	de	ADP	PRE	_	132	case	_	XmlId=w_32_01803
+130	tous	tout2	DET	DETind	PronType=Ind	132	det	_	XmlId=w_32_01804
+131	autres	autre	ADJ	ADJind	PronType=Ind	132	amod	_	XmlId=w_32_01805
+132	biensfaictz	bienfait	NOUN	NOMcom	_	128	obl	_	SpaceAfter=No|XmlId=w_32_01806
+133	.	.	PUNCT	PONfrt	_	5	punct	_	XmlId=w_32_01807
+
+# text = Et povoit bien avoir troys cens hommes d'armes et quatre mille archiers soubz sa charge,
+# newdoc_id = Commyn_1497_prose
+# sent_id = 88
+# tags = trans
+1	Et	et	CCONJ	CONcoo	_	2	cc:nc	_	XmlId=w_32_02817
+2	povoit	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_02818
+3	bien	bien	ADV	ADVgen	_	4	advmod	_	XmlId=w_32_02819
+4	avoir	avoir1	VERB	VERinf	VerbForm=Inf	2	xcomp	_	XmlId=w_32_02820
+5	troys	trois	DET	DETcar	NumType=Card	7	det	_	XmlId=w_32_02821
+6	cens	cent	DET	DETcar	NumType=Card	5	flat	_	XmlId=w_32_02822
+7	hommes	homme	NOUN	NOMcom	_	4	obl	_	XmlId=w_32_02823
+8	d'	de	ADP	PRE	_	9	case	_	SpaceAfter=No|XmlId=w_32_02824
+9	armes	arme	NOUN	NOMcom	_	7	nmod	_	XmlId=w_32_02825
+10	et	et	CCONJ	CONcoo	_	13	cc	_	XmlId=w_32_02826
+11	quatre	quatre	DET	DETcar	NumType=Card	13	det	_	XmlId=w_32_02827
+12	mille	mille1	DET	DETcar	NumType=Card	11	flat	_	XmlId=w_32_02828
+13	archiers	archer1	NOUN	NOMcom	_	7	conj	_	XmlId=w_32_02829
+14	soubz	sous	ADP	PRE	_	16	case	_	XmlId=w_32_02830
+15	sa	son4	DET	DETpos	Poss=Yes	16	det	_	XmlId=w_32_02831
+16	charge	charge	NOUN	NOMcom	_	4	obl	_	SpaceAfter=No|XmlId=w_32_02832
+17	,	,	PUNCT	PONfbl	_	2	punct	_	XmlId=w_32_02833
+
+# text = L'armée povoit estre de quatorze cens hommes d'armes mal arméz et mal adroitz,
+# newdoc_id = Commyn_1497_prose
+# sent_id = 99
+# tags = trans
+1	L'	le	DET	DETdef	Definite=Def|PronType=Art	2	det	_	SpaceAfter=No|XmlId=w_32_03078
+2	armée	armée	NOUN	NOMcom	_	3	nsubj	_	XmlId=w_32_03079
+3	povoit	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_03080
+4	estre	être1	VERB	VERinf	VerbForm=Inf	3	xcomp	_	XmlId=w_32_03081
+5	de	de	ADP	PRE	_	8	case	_	XmlId=w_32_03082
+6	quatorze	quatorze	DET	DETcar	NumType=Card	8	det	_	XmlId=w_32_03083
+7	cens	cent	DET	DETcar	NumType=Card	6	flat	_	XmlId=w_32_03084
+8	hommes	homme	NOUN	NOMcom	_	4	obl	_	XmlId=w_32_03085
+9	d'	de	ADP	PRE	_	10	case	_	SpaceAfter=No|XmlId=w_32_03086
+10	armes	arme	NOUN	NOMcom	_	8	nmod	_	XmlId=w_32_03087
+11	mal	mal3	ADV	ADVgen	_	12	advmod	_	XmlId=w_32_03088
+12	arméz	armer	VERB	VERppe	Tense=Past|VerbForm=Part	8	acl	_	XmlId=w_32_03089
+13	et	et	CCONJ	CONcoo	_	15	cc	_	XmlId=w_32_03090
+14	mal	mal3	ADV	ADVgen	_	15	advmod	_	XmlId=w_32_03091
+15	adroitz	adroit	ADJ	ADJqua	_	12	conj	_	SpaceAfter=No|XmlId=w_32_03092
+16	,	,	PUNCT	PONfbl	_	3	punct	_	XmlId=w_32_03093
+
+# text = D'archiers y povoit - il bien avoir huict ou neuf mille,
+# newdoc_id = Commyn_1497_prose
+# sent_id = 105
+# tags = trans
+1	D'	de	ADP	PRE	_	2	case	_	SpaceAfter=No|XmlId=w_32_03180
+2	archiers	archer1	NOUN	NOMcom	_	8	obj	_	XmlId=w_32_03181
+3	y	y2	ADV	PROadv	_	8	obl:advmod	_	XmlId=w_32_03182
+4	povoit	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_03183
+5	-	-	PUNCT	PONfbl	_	4	punct	_	XmlId=w_32_03184
+6	il	il	PRON	PROimp	PronType=Prs	4	expl	_	XmlId=w_32_03185
+7	bien	bien	ADV	ADVgen	_	8	advmod	_	XmlId=w_32_03186
+8	avoir	avoir1	VERB	VERinf	VerbForm=Inf	4	xcomp	_	XmlId=w_32_03187
+9	huict	huit	PRON	PROcar	NumType=Card	8	obl	_	XmlId=w_32_03188
+10	ou	ou	CCONJ	CONcoo	_	11	cc	_	XmlId=w_32_03189
+11	neuf	neuf1	PRON	PROcar	NumType=Card	9	conj	_	XmlId=w_32_03190
+12	mille	mille1	PRON	PROcar	NumType=Card	9	flat	_	SpaceAfter=No|XmlId=w_32_03191
+13	,	,	PUNCT	PONfbl	_	12	punct	_	XmlId=w_32_03192
+
+# text = Et me semble que pour lors ses terres se povoient myeulx dire terres de promission que nulles autres seigneuries qui fussent sur la terre.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 109
+# tags = trans
+1	Et	et	CCONJ	CONcoo	_	3	cc:nc	_	XmlId=w_32_03260
+2	me	me	PRON	PROper	PronType=Prs	3	iobj	_	XmlId=w_32_03261
+3	semble	sembler1	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_03262
+4	que	que	SCONJ	CONsub	_	10	mark	_	XmlId=w_32_03263
+5	pour	pour	ADP	PRE	_	6	case	_	XmlId=w_32_03264
+6	lors	lors	ADV	ADVgen	_	12	advmod	_	XmlId=w_32_03265
+7	ses	son4	DET	DETpos	Poss=Yes	8	det	_	XmlId=w_32_03266
+8	terres	terre1	NOUN	NOMcom	_	10	nsubj	_	XmlId=w_32_03267
+9	se	se1	PRON	PROper	PronType=Prs	12	expl	_	XmlId=w_32_03268
+10	povoient	pouvoir	VERB	VERcjg	VerbForm=Fin	3	ccomp	_	XmlId=w_32_03269
+11	myeulx	mieux	ADV	ADVgen	_	12	advmod	_	XmlId=w_32_03270
+12	dire	dire1	VERB	VERinf	VerbForm=Inf	10	xcomp	_	XmlId=w_32_03271
+13	terres	terre1	NOUN	NOMcom	_	12	obj	_	XmlId=w_32_03272
+14	de	de	ADP	PRE	_	15	case	_	XmlId=w_32_03273
+15	promission	promission	NOUN	NOMcom	_	13	nmod	_	XmlId=w_32_03274
+16	que	que	SCONJ	CONsub	_	19	case	_	XmlId=w_32_03275
+17	nulles	nul	DET	DETind	PronType=Ind	19	det	_	XmlId=w_32_03276
+18	autres	autre	ADJ	ADJind	PronType=Ind	19	amod	_	XmlId=w_32_03277
+19	seigneuries	seigneurie	NOUN	NOMcom	_	11	nmod	_	XmlId=w_32_03278
+20	qui	qui1	PRON	PROrel	PronType=Rel	21	nsubj	_	XmlId=w_32_03279
+21	fussent	être1	VERB	VERcjg	VerbForm=Fin	19	acl:relcl	_	XmlId=w_32_03280
+22	sur	sur1	ADP	PRE	_	24	case	_	XmlId=w_32_03281
+23	la	le	DET	DETdef	Definite=Def|PronType=Art	24	det	_	XmlId=w_32_03282
+24	terre	terre1	NOUN	NOMcom	_	21	obl	_	SpaceAfter=No|XmlId=w_32_03283
+25	.	.	PUNCT	PONfrt	_	3	punct	_	XmlId=w_32_03284
+
+# text = et y peult bien avoir vingt et troys ans que cecy commença.
+# newdoc_id = Commyn_1497_prose
+# sent_id = 111
+# tags = trans
+1	et	et	CCONJ	CONcoo	_	3	cc:nc	_	XmlId=w_32_03303
+2	y	y2	ADV	PROadv	_	5	obl:advmod	_	XmlId=w_32_03304
+3	peult	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_32_03305
+4	bien	bien	ADV	ADVgen	_	5	advmod	_	XmlId=w_32_03306
+5	avoir	avoir1	VERB	VERinf	VerbForm=Inf	3	xcomp	_	XmlId=w_32_03307
+6	vingt	vingt	DET	DETcar	NumType=Card	9	det	_	XmlId=w_32_03308
+7	et	et	CCONJ	CONcoo	_	8	cc	_	XmlId=w_32_03309
+8	troys	trois	DET	DETcar	NumType=Card	6	flat	_	XmlId=w_32_03310
+9	ans	an	NOUN	NOMcom	_	5	obl	_	XmlId=w_32_03311
+10	que	que	SCONJ	CONsub	_	12	mark	_	XmlId=w_32_03312
+11	cecy	ceci	PRON	PROdem	PronType=Dem	12	nsubj	_	XmlId=w_32_03313
+12	commença	commencer	VERB	VERcjg	VerbForm=Fin	9	acl	_	SpaceAfter=No|XmlId=w_32_03314
+13	.	.	PUNCT	PONfrt	_	3	punct	_	XmlId=w_32_03315
+
+# text = Et si devoit avoir par le dit traictié la vicontée de Lymoges.
+# newdoc_id = grchronj2c5_1381_prose
+# sent_id = 153
+# tags = trans
+1	Et	et	CCONJ	CONcoo	_	3	cc:nc	_	XmlId=w_grchron_j2c5_1010
+2	si	si4	ADV	ADVgen	_	4	advmod	_	XmlId=w_grchron_j2c5_1011
+3	devoit	devoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_grchron_j2c5_1012
+4	avoir	avoir1	VERB	VERinf	VerbForm=Inf	3	xcomp	_	XmlId=w_grchron_j2c5_1013
+5	par	par1	ADP	PRE	_	8	case	_	XmlId=w_grchron_j2c5_1014
+6	le	le	DET	DETdef	Definite=Def|PronType=Art	8	det	_	XmlId=w_grchron_j2c5_1015
+7	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	8	acl	_	XmlId=w_grchron_j2c5_1016
+8	traictié	traité1	NOUN	NOMcom	_	4	obl	_	XmlId=w_grchron_j2c5_1017
+9	la	le	DET	DETdef	Definite=Def|PronType=Art	10	det	_	XmlId=w_grchron_j2c5_1018
+10	vicontée	vicomté	NOUN	NOMcom	_	4	obj	_	XmlId=w_grchron_j2c5_1019
+11	de	de	ADP	PRE	_	12	case	_	XmlId=w_grchron_j2c5_1020
+12	Lymoges	Limoges	PROPN	NOMpro	_	10	nmod	_	SpaceAfter=No|XmlId=w_grchron_j2c5_1021
+13	.	.	PUNCT	PONfrt	_	3	punct	_	XmlId=w_grchron_j2c5_1022
+
+# text = et par le dit accort devoient demourer perpetuelment au roy de France les dites villes de Mante et de Meullent et la dite contée de Longueville, laquelle le dit roy de France avoit jà donnée à messire Bertran du Guesclin, pour la raençon du dit captal, lequel avoit esté prison du dit messire Bertran, si comme dessus est dit.
+# newdoc_id = grchronj2c5_1381_prose
+# sent_id = 159
+# tags = trans
+1	et	et	CCONJ	CONcoo	_	6	cc:nc	_	XmlId=w_grchron_j2c5_1220
+2	par	par1	ADP	PRE	_	5	case	_	XmlId=w_grchron_j2c5_1221
+3	le	le	DET	DETdef	Definite=Def|PronType=Art	5	det	_	XmlId=w_grchron_j2c5_1222
+4	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	5	acl	_	XmlId=w_grchron_j2c5_1223
+5	accort	accord	NOUN	NOMcom	_	7	obl	_	XmlId=w_grchron_j2c5_1224
+6	devoient	devoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_grchron_j2c5_1225
+7	demourer	demeurer	VERB	VERinf	VerbForm=Inf	6	xcomp	_	XmlId=w_grchron_j2c5_1226
+8	perpetuelment	perpétuellement	ADV	ADVgen	_	7	advmod	_	XmlId=w_grchron_j2c5_1227
+9	au	à.le	ADP	PRE.DETdef	_	10	case:det	_	XmlId=w_grchron_j2c5_1228
+10	roy	roi1	NOUN	NOMcom	_	7	obl	_	XmlId=w_grchron_j2c5_1229
+11	de	de	ADP	PRE	_	12	case	_	XmlId=w_grchron_j2c5_1230
+12	France	France	PROPN	NOMpro	_	10	nmod	_	XmlId=w_grchron_j2c5_1231
+13	les	le	DET	DETdef	Definite=Def|PronType=Art	15	det	_	XmlId=w_grchron_j2c5_1232
+14	dites	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	15	acl	_	XmlId=w_grchron_j2c5_1233
+15	villes	ville	NOUN	NOMcom	_	6	nsubj	_	XmlId=w_grchron_j2c5_1234
+16	de	de	ADP	PRE	_	17	case	_	XmlId=w_grchron_j2c5_1235
+17	Mante	Mantes	PROPN	NOMpro	_	15	nmod	_	XmlId=w_grchron_j2c5_1236
+18	et	et	CCONJ	CONcoo	_	20	cc	_	XmlId=w_grchron_j2c5_1237
+19	de	de	ADP	PRE	_	20	case	_	XmlId=w_grchron_j2c5_1238
+20	Meullent	Meulan	PROPN	NOMpro	_	17	conj	_	1239
+21	et	et	CCONJ	CONcoo	_	24	cc	_	XmlId=w_grchron_j2c5_1240
+22	la	le	DET	DETdef	Definite=Def|PronType=Art	24	det	_	XmlId=w_grchron_j2c5_1241
+23	dite	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	24	acl	_	XmlId=w_grchron_j2c5_1242
+24	contée	comtée	NOUN	NOMcom	_	17	conj	_	XmlId=w_grchron_j2c5_1243
+25	de	de	ADP	PRE	_	26	case	_	XmlId=w_grchron_j2c5_1244
+26	Longueville	Longueville	PROPN	NOMpro	_	24	nmod	_	SpaceAfter=No|XmlId=w_grchron_j2c5_1245
+27	,	,	PUNCT	PONfbl	_	24	punct	_	XmlId=w_grchron_j2c5_1246
+28	laquelle	lequel	PRON	PROrel	PronType=Rel	36	obj	_	XmlId=w_grchron_j2c5_1247
+29	le	le	DET	DETdef	Definite=Def|PronType=Art	31	det	_	XmlId=w_grchron_j2c5_1249
+30	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	31	acl	_	XmlId=w_grchron_j2c5_1250
+31	roy	roi1	NOUN	NOMcom	_	36	nsubj	_	XmlId=w_grchron_j2c5_1251
+32	de	de	ADP	PRE	_	33	case	_	XmlId=w_grchron_j2c5_1252
+33	France	France	PROPN	NOMpro	_	31	nmod	_	XmlId=w_grchron_j2c5_1253
+34	avoit	avoir	AUX	VERcjg	VerbForm=Fin	36	aux	_	XmlId=w_grchron_j2c5_1254
+35	jà	jà	ADV	ADVgen	_	36	advmod	_	XmlId=w_grchron_j2c5_1255
+36	donnée	donner	VERB	VERppe	Tense=Past|VerbForm=Part	24	acl:relcl	_	XmlId=w_grchron_j2c5_1256
+37	à	à	ADP	PRE	_	38	case	_	XmlId=w_grchron_j2c5_1257
+38	messire	messire	NOUN	NOMcom	_	36	obl	_	XmlId=w_grchron_j2c5_1258
+39	Bertran	Bertrand	PROPN	NOMpro	_	38	flat	_	XmlId=w_grchron_j2c5_1259
+40	du	de.le	ADP	PRE.DETdef	_	41	case:det	_	XmlId=w_grchron_j2c5_1260
+41	Guesclin	Guesclin	PROPN	NOMpro	_	39	nmod	_	SpaceAfter=No|XmlId=w_grchron_j2c5_1261
+42	,	,	PUNCT	PONfbl	_	36	punct	_	XmlId=w_grchron_j2c5_1262
+43	pour	pour	ADP	PRE	_	45	case	_	XmlId=w_grchron_j2c5_1263
+44	la	le	DET	DETdef	Definite=Def|PronType=Art	45	det	_	XmlId=w_grchron_j2c5_1264
+45	raençon	rançon	NOUN	NOMcom	_	36	obl	_	XmlId=w_grchron_j2c5_1265
+46	du	de.le	ADP	PRE.DETdef	_	48	case:det	_	XmlId=w_grchron_j2c5_1266
+47	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	48	acl	_	XmlId=w_grchron_j2c5_1267
+48	captal	captal	NOUN	NOMcom	_	45	nmod	_	SpaceAfter=No|XmlId=w_grchron_j2c5_1268
+49	,	,	PUNCT	PONfbl	_	48	punct	_	XmlId=w_grchron_j2c5_1269
+50	lequel	lequel	PRON	PROrel	PronType=Rel	53	nsubj	_	XmlId=w_grchron_j2c5_1270
+51	avoit	avoir	AUX	VERcjg	VerbForm=Fin	53	aux	_	XmlId=w_grchron_j2c5_1272
+52	esté	être	AUX	VERppe	Tense=Past|VerbForm=Part	53	cop	_	XmlId=w_grchron_j2c5_1273
+53	prison	prison1	NOUN	NOMcom	_	48	acl:relcl	_	XmlId=w_grchron_j2c5_1274
+54	du	de.le	ADP	PRE.DETdef	_	56	case:det	_	XmlId=w_grchron_j2c5_1275
+55	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	56	acl	_	XmlId=w_grchron_j2c5_1276
+56	messire	messire	NOUN	NOMcom	_	53	nmod	_	XmlId=w_grchron_j2c5_1277
+57	Bertran	Bertrand	PROPN	NOMpro	_	56	flat	_	SpaceAfter=No|XmlId=w_grchron_j2c5_1278
+58	,	,	PUNCT	PONfbl	_	53	punct	_	XmlId=w_grchron_j2c5_1279
+59	si	si4	ADV	ADVgen	_	63	mark	_	XmlId=w_grchron_j2c5_1280
+60	comme	comme	SCONJ	CONsub	_	59	fixed	_	XmlId=w_grchron_j2c5_1281
+61	dessus	dessus	ADV	ADVgen	_	63	advmod	_	XmlId=w_grchron_j2c5_1282
+62	est	être	AUX	VERcjg	VerbForm=Fin	63	aux	_	XmlId=w_grchron_j2c5_1283
+63	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	53	advcl	_	SpaceAfter=No|XmlId=w_grchron_j2c5_1284
+64	.	.	PUNCT	PONfrt	_	6	punct	_	XmlId=w_grchron_j2c5_1285
+
+# text = Et le roy de Navarre dot avoir la ville et la baronnie de Montpellier,
+# newdoc_id = grchronj2c5_1381_prose
+# sent_id = 160
+# tags = trans
+1	Et	et	CCONJ	CONcoo	_	6	cc:nc	_	XmlId=w_grchron_j2c5_1286
+2	le	le	DET	DETdef	Definite=Def|PronType=Art	3	det	_	XmlId=w_grchron_j2c5_1287
+3	roy	roi1	NOUN	NOMcom	_	6	nsubj	_	XmlId=w_grchron_j2c5_1288
+4	de	de	ADP	PRE	_	5	case	_	XmlId=w_grchron_j2c5_1289
+5	Navarre	Navarre	PROPN	NOMpro	_	3	nmod	_	XmlId=w_grchron_j2c5_1290
+6	dot	devoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_grchron_j2c5_1291
+7	avoir	avoir1	VERB	VERinf	VerbForm=Inf	6	xcomp	_	XmlId=w_grchron_j2c5_1292
+8	la	le	DET	DETdef	Definite=Def|PronType=Art	9	det	_	XmlId=w_grchron_j2c5_1293
+9	ville	ville	NOUN	NOMcom	_	7	obj	_	XmlId=w_grchron_j2c5_1294
+10	et	et	CCONJ	CONcoo	_	12	cc	_	XmlId=w_grchron_j2c5_1295
+11	la	le	DET	DETdef	Definite=Def|PronType=Art	12	det	_	XmlId=w_grchron_j2c5_1296
+12	baronnie	baronnie	NOUN	NOMcom	_	9	conj	_	XmlId=w_grchron_j2c5_1297
+13	de	de	ADP	PRE	_	14	case	_	XmlId=w_grchron_j2c5_1298
+14	Montpellier	Montpellier	PROPN	NOMpro	_	12	nmod	_	SpaceAfter=No|XmlId=w_grchron_j2c5_1299
+15	,	,	PUNCT	PONfbl	_	6	punct	_	XmlId=w_grchron_j2c5_1300
+
+# text = et promistrent que elle ne seroit ouverte jusques ad ce que le dit duc feust venuz devers le Roy faire son hommaige, tant du dit duchié comme de la contée de Montfort et des autres terres qu'il devoit tenir du Roy.
+# newdoc_id = grchronj2c5_1381_prose
+# sent_id = 199
+# tags = trans
+1	et	et	CCONJ	CONcoo	_	2	cc:nc	_	XmlId=w_grchron_j2c5_2258
+2	promistrent	promettre	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_grchron_j2c5_2259
+3	que	que	SCONJ	CONsub	_	7	mark	_	XmlId=w_grchron_j2c5_2260
+4	elle	elle1	PRON	PROper	PronType=Prs	7	nsubj	_	XmlId=w_grchron_j2c5_2261
+5	ne	ne1	ADV	ADVneg	PronType=Neg	7	advmod	_	XmlId=w_grchron_j2c5_2262
+6	seroit	être	AUX	VERcjg	VerbForm=Fin	7	aux:pass	_	XmlId=w_grchron_j2c5_2263
+7	ouverte	ouvrir1	VERB	VERppe	Tense=Past|VerbForm=Part	2	ccomp	_	XmlId=w_grchron_j2c5_2264
+8	jusques	jusque	ADP	PRE	_	10	case	_	XmlId=w_grchron_j2c5_2265
+9	ad	à	ADP	PRE	_	10	case	_	XmlId=w_grchron_j2c5_2266
+10	ce	ce1	PRON	PROdem	PronType=Dem	7	obl	_	XmlId=w_grchron_j2c5_2267
+11	que	que	SCONJ	CONsub	_	16	mark	_	XmlId=w_grchron_j2c5_2268
+12	le	le	DET	DETdef	Definite=Def|PronType=Art	14	det	_	XmlId=w_grchron_j2c5_2269
+13	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	14	acl	_	XmlId=w_grchron_j2c5_2270
+14	duc	duc1	NOUN	NOMcom	_	16	nsubj	_	XmlId=w_grchron_j2c5_2271
+15	feust	être	AUX	VERcjg	VerbForm=Fin	16	aux	_	XmlId=w_grchron_j2c5_2272
+16	venuz	venir	VERB	VERppe	Tense=Past|VerbForm=Part	10	acl	_	XmlId=w_grchron_j2c5_2273
+17	devers	devers	ADP	PRE	_	19	case	_	XmlId=w_grchron_j2c5_2274
+18	le	le	DET	DETdef	Definite=Def|PronType=Art	19	det	_	XmlId=w_grchron_j2c5_2275
+19	Roy	roi1	NOUN	NOMcom	_	16	obl	_	XmlId=w_grchron_j2c5_2276
+20	faire	faire	VERB	VERinf	VerbForm=Inf	16	xcomp	_	XmlId=w_grchron_j2c5_2277
+21	son	son4	DET	DETpos	Poss=Yes	22	det	_	XmlId=w_grchron_j2c5_2278
+22	hommaige	hommage1	NOUN	NOMcom	_	20	obj	_	SpaceAfter=No|XmlId=w_grchron_j2c5_2279
+23	,	,	PUNCT	PONfbl	_	22	punct	_	XmlId=w_grchron_j2c5_2280
+24	tant	tant	ADV	ADVgen	_	27	advmod	_	XmlId=w_grchron_j2c5_2281
+25	du	de.le	ADP	PRE.DETdef	_	27	case:det	_	XmlId=w_grchron_j2c5_2282
+26	dit	dire1	VERB	VERppe	Tense=Past|VerbForm=Part	27	acl	_	XmlId=w_grchron_j2c5_2283
+27	duchié	duché	NOUN	NOMcom	_	22	nmod	_	XmlId=w_grchron_j2c5_2284
+28	comme	comme	SCONJ	CONsub	_	31	mark	_	XmlId=w_grchron_j2c5_2285
+29	de	de	ADP	PRE	_	31	case	_	XmlId=w_grchron_j2c5_2286
+30	la	le	DET	DETdef	Definite=Def|PronType=Art	31	det	_	XmlId=w_grchron_j2c5_2287
+31	contée	comtée	NOUN	NOMcom	_	24	obl	_	XmlId=w_grchron_j2c5_2288
+32	de	de	ADP	PRE	_	33	case	_	XmlId=w_grchron_j2c5_2289
+33	Montfort	Montfort	PROPN	NOMpro	_	31	nmod	_	XmlId=w_grchron_j2c5_2290
+34	et	et	CCONJ	CONcoo	_	37	cc	_	XmlId=w_grchron_j2c5_2291
+35	des	de.le	ADP	PRE.DETdef	_	37	case:det	_	XmlId=w_grchron_j2c5_2292
+36	autres	autre	DET	DETind	PronType=Ind	37	amod	_	XmlId=w_grchron_j2c5_2293
+37	terres	terre1	NOUN	NOMcom	_	31	conj	_	XmlId=w_grchron_j2c5_2294
+38	qu'	que	PRON	PROrel	PronType=Rel	41	obj	_	SpaceAfter=No|XmlId=w_grchron_j2c5_2295
+39	il	il	PRON	PROper	PronType=Prs	40	nsubj	_	XmlId=w_grchron_j2c5_2296
+40	devoit	devoir	VERB	VERcjg	VerbForm=Fin	37	acl:relcl	_	XmlId=w_grchron_j2c5_2297
+41	tenir	tenir	VERB	VERinf	VerbForm=Inf	40	xcomp	_	XmlId=w_grchron_j2c5_2298
+42	du	de.le	ADP	PRE.DETdef	_	43	case:det	_	XmlId=w_grchron_j2c5_2299
+43	Roy	roi1	NOUN	NOMcom	_	41	obl	_	SpaceAfter=No|XmlId=w_grchron_j2c5_2300
+44	.	.	PUNCT	PONfrt	_	2	punct	_	XmlId=w_grchron_j2c5_2301
+
+# text = et y faisoient tous les maulx que ennemis pevent faire,
+# newdoc_id = grchronj2c5_1381_prose
+# sent_id = 214
+# tags = trans
+1	et	et	CCONJ	CONcoo	_	3	cc:nc	_	XmlId=w_grchron_j2c5_2604
+2	y	y2	ADV	PROadv	_	3	obl:advmod	_	XmlId=w_grchron_j2c5_2605
+3	faisoient	faire	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_grchron_j2c5_2606
+4	tous	tout2	DET	DETind	PronType=Ind	6	det	_	XmlId=w_grchron_j2c5_2607
+5	les	le	DET	DETdef	Definite=Def|PronType=Art	6	det	_	XmlId=w_grchron_j2c5_2608
+6	maulx	mal1	NOUN	NOMcom	_	3	obj	_	XmlId=w_grchron_j2c5_2609
+7	que	que	PRON	PROrel	PronType=Rel	10	obj	_	XmlId=w_grchron_j2c5_2610
+8	ennemis	ennemi	NOUN	NOMcom	_	9	nsubj	_	XmlId=w_grchron_j2c5_2611
+9	pevent	pouvoir	VERB	VERcjg	VerbForm=Fin	6	acl:relcl	_	XmlId=w_grchron_j2c5_2612
+10	faire	faire	VERB	VERinf	VerbForm=Inf	9	xcomp	_	SpaceAfter=No|XmlId=w_grchron_j2c5_2613
+11	,	,	PUNCT	PONfbl	_	3	punct	_	XmlId=w_grchron_j2c5_2614
+
+# text = En l'honneur de Dieu nostre createur et redempteur, et de sa benoiste vierge mere, puissions nous faire et dire chose en cestuy transsitoire monde que a luy soit plaisante et a nous prouffitable.
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 222
+# tags = trans
+1	En	en1	ADP	PRE	_	3	case	_	XmlId=w_42_00017
+2	l'	le	DET	DETdef	Definite=Def|PronType=Art	3	det	_	SpaceAfter=No|XmlId=w_42_00018
+3	honneur	honneur	NOUN	NOMcom	_	20	obl	_	XmlId=w_42_00019
+4	de	de	ADP	PRE	_	5	case	_	XmlId=w_42_00020
+5	Dieu	dieu	PROPN	NOMpro	_	3	nmod	_	XmlId=w_42_00021
+6	nostre	notre	DET	DETpos	Poss=Yes	7	det	_	XmlId=w_42_00022
+7	createur	créateur	NOUN	NOMcom	_	5	appos	_	XmlId=w_42_00023
+8	et	et	CCONJ	CONcoo	_	9	cc	_	XmlId=w_42_00024
+9	redempteur	rédempteur	NOUN	NOMcom	_	7	conj	_	SpaceAfter=No|XmlId=w_42_00025
+10	,	,	PUNCT	PONfbl	_	16	punct	_	XmlId=w_42_00026
+11	et	et	CCONJ	CONcoo	_	15	cc	_	XmlId=w_42_00027
+12	de	de	ADP	PRE	_	15	case	_	XmlId=w_42_00028
+13	sa	son4	DET	DETpos	Poss=Yes	15	det	_	XmlId=w_42_00029
+14	benoiste	benoît	ADJ	ADJqua	_	15	amod	_	XmlId=w_42_00030
+15	vierge	vierge	ADJ	ADJqua	_	16	amod	_	XmlId=w_42_00031
+16	mere	mère	NOUN	NOMcom	_	5	conj	_	SpaceAfter=No|XmlId=w_42_00032
+17	,	,	PUNCT	PONfbl	_	18	punct	_	XmlId=w_42_00033
+18	puissions	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_00034
+19	nous	nous	PRON	PROper	PronType=Prs	18	nsubj	_	XmlId=w_42_00035
+20	faire	faire	VERB	VERinf	VerbForm=Inf	18	xcomp	_	XmlId=w_42_00036
+21	et	et	CCONJ	CONcoo	_	22	cc	_	XmlId=w_42_00037
+22	dire	dire1	VERB	VERinf	VerbForm=Inf	18	conj	_	XmlId=w_42_00038
+23	chose	chose	NOUN	NOMcom	_	22	obj	_	XmlId=w_42_00039
+24	en	en1	ADP	PRE	_	27	case	_	XmlId=w_42_00040
+25	cestuy	cist	DET	DETdem	PronType=Dem	27	det	_	XmlId=w_42_00041
+26	transsitoire	transitoire	ADJ	ADJqua	_	27	amod	_	XmlId=w_42_00042
+27	monde	monde1	NOUN	NOMcom	_	22	obl	_	XmlId=w_42_00043
+28	que	que	PRON	PROrel	PronType=Rel	32	nsubj	_	XmlId=w_42_00044
+29	a	à	ADP	PRE	_	30	case	_	XmlId=w_42_00045
+30	luy	lui	PRON	PROper	PronType=Prs	32	iobj	_	XmlId=w_42_00046
+31	soit	être	AUX	VERcjg	VerbForm=Fin	32	cop	_	XmlId=w_42_00047
+32	plaisante	plaire	VERB	ADJqua	_	23	acl:relcl	_	XmlId=w_42_00048
+33	et	et	CCONJ	CONcoo	_	35	cc	_	XmlId=w_42_00049
+34	a	à	ADP	PRE	_	35	case	_	XmlId=w_42_00050
+35	nous	nous	PRON	PROper	PronType=Prs	30	conj	_	XmlId=w_42_00051
+36	prouffitable	profitable	ADJ	ADJqua	_	32	conj	_	SpaceAfter=No|XmlId=w_42_00052
+37	.	.	PUNCT	PONfrt	_	18	punct	_	XmlId=w_42_00053
+
+# text = Mais pour ce que nostre pouvre fragilité est tantost lassee et fatiguee a lire ou escouter choses salutaires et qu'ilz nous doivent conduire a la eternelle felicité et remonstrance de noz pechez et meffaiz, et tantost facillement s'encline a vices et pechez et que grant mal est aujourd'uy pour ce que chascun entend de legier en railleries dissolues et diffamations, dont grans maulx en viennent, et pour eviter oysiveté qui est seur de pechié, j'ay voulu icy mectre par escript une histoire joyeuse que j'ay translatee d'espaignol en langue françoise.
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 223
+# tags = trans
+1	Mais	mais1	CCONJ	CONcoo	_	86	cc:nc	_	XmlId=w_42_00054
+2	pour	pour	ADP	PRE	_	3	case	_	XmlId=w_42_00055
+3	ce	ce1	PRON	PROdem	PronType=Dem	84	obl	_	XmlId=w_42_00056
+4	que	que	SCONJ	CONsub	_	10	mark	_	XmlId=w_42_00057
+5	nostre	notre	DET	DETpos	Poss=Yes	7	det	_	XmlId=w_42_00058
+6	pouvre	pauvre	ADJ	ADJqua	_	7	amod	_	XmlId=w_42_00059
+7	fragilité	fragilité	NOUN	NOMcom	_	10	nsubj	_	XmlId=w_42_00060
+8	est	être	AUX	VERcjg	VerbForm=Fin	10	cop	_	XmlId=w_42_00061
+9	tantost	tantôt	ADV	ADVgen	_	10	advmod	_	XmlId=w_42_00062
+10	lassee	lasser	VERB	VERppe	Tense=Past|VerbForm=Part	3	acl	_	XmlId=w_42_00063
+11	et	et	CCONJ	CONcoo	_	12	cc	_	XmlId=w_42_00064
+12	fatiguee	fatiguer	VERB	ADJqua	_	10	conj	_	XmlId=w_42_00065
+13	a	à	ADP	PRE	_	14	mark	_	XmlId=w_42_00066
+14	lire	lire1	VERB	VERinf	VerbForm=Inf	12	xcomp	_	XmlId=w_42_00067
+15	ou	ou	CCONJ	CONcoo	_	16	cc	_	XmlId=w_42_00068
+16	escouter	écouter	VERB	VERinf	VerbForm=Inf	14	conj	_	XmlId=w_42_00069
+17	choses	chose	NOUN	NOMcom	_	16	obj	_	XmlId=w_42_00070
+18	salutaires	salutaire	ADJ	ADJqua	_	17	amod	_	XmlId=w_42_00071
+19	et	et	CCONJ	CONcoo	_	23	cc	_	XmlId=w_42_00072
+20	qu'	que	SCONJ	CONsub	_	23	mark	_	SpaceAfter=No|XmlId=w_42_00073
+21	ilz	il	PRON	PROper	PronType=Prs	23	nsubj	_	XmlId=w_42_00074
+22	nous	nous	PRON	PROper	PronType=Prs	24	iobj	_	XmlId=w_42_00075
+23	doivent	devoir	VERB	VERcjg	VerbForm=Fin	10	conj	_	XmlId=w_42_00076
+24	conduire	conduire	VERB	VERinf	VerbForm=Inf	23	xcomp	_	XmlId=w_42_00077
+25	a	à	ADP	PRE	_	28	case	_	XmlId=w_42_00078
+26	la	le	DET	DETdef	Definite=Def|PronType=Art	28	det	_	XmlId=w_42_00079
+27	eternelle	éternel	ADJ	ADJqua	_	28	amod	_	XmlId=w_42_00080
+28	felicité	félicité	NOUN	NOMcom	_	24	obl	_	XmlId=w_42_00081
+29	et	et	CCONJ	CONcoo	_	30	cc	_	XmlId=w_42_00082
+30	remonstrance	remontrance	NOUN	NOMcom	_	28	conj	_	XmlId=w_42_00083
+31	de	de	ADP	PRE	_	33	case	_	XmlId=w_42_00084
+32	noz	notre	DET	DETpos	Poss=Yes	33	det	_	XmlId=w_42_00085
+33	pechez	péché	NOUN	NOMcom	_	30	nmod	_	XmlId=w_42_00086
+34	et	et	CCONJ	CONcoo	_	35	cc	_	XmlId=w_42_00087
+35	meffaiz	méfait	NOUN	NOMcom	_	33	conj	_	SpaceAfter=No|XmlId=w_42_00088
+36	,	,	PUNCT	PONfbl	_	41	punct	_	XmlId=w_42_00089
+37	et	et	CCONJ	CONcoo	_	41	cc	_	XmlId=w_42_00090
+38	tantost	tantôt	ADV	ADVgen	_	41	advmod	_	XmlId=w_42_00091
+39	facillement	facilement	ADV	ADVgen	_	41	advmod	_	XmlId=w_42_00092
+40	s'	se1	PRON	PROper	PronType=Prs	41	obj	_	SpaceAfter=No|XmlId=w_42_00093
+41	encline	encliner	VERB	VERcjg	VerbForm=Fin	10	conj	_	XmlId=w_42_00094
+42	a	à	ADP	PRE	_	43	case	_	XmlId=w_42_00095
+43	vices	vice1	NOUN	NOMcom	_	41	obl	_	XmlId=w_42_00096
+44	et	et	CCONJ	CONcoo	_	45	cc	_	XmlId=w_42_00097
+45	pechez	péché	NOUN	NOMcom	_	43	conj	_	XmlId=w_42_00098
+46	et	et	CCONJ	CONcoo	_	50	cc	_	XmlId=w_42_00099
+47	que	que	SCONJ	CONsub	_	50	mark	_	XmlId=w_42_00100
+48	grant	grand	ADJ	ADJqua	_	49	amod	_	XmlId=w_42_00101
+49	mal	mal1	NOUN	NOMcom	_	50	nsubj	_	XmlId=w_42_00102
+50	est	être1	VERB	VERcjg	VerbForm=Fin	10	conj	_	XmlId=w_42_00103
+51	aujourd'	aujourd'hui	ADV	ADVgen	_	50	advmod	_	SpaceAfter=No|XmlId=w_42_00104
+52	uy	hui2	ADV	ADVgen	_	51	nmod	_	XmlId=w_42_00105
+53	pour	pour	ADP	PRE	_	54	case	_	XmlId=w_42_00106
+54	ce	ce1	PRON	PROdem	PronType=Dem	50	obl	_	XmlId=w_42_00107
+55	que	que	SCONJ	CONsub	_	57	mark	_	XmlId=w_42_00108
+56	chascun	chacun	PRON	PROind	PronType=Ind	57	nsubj	_	XmlId=w_42_00109
+57	entend	entendre	VERB	VERcjg	VerbForm=Fin	54	acl	_	XmlId=w_42_00110
+58	de	de	ADP	PRE	_	59	case	_	XmlId=w_42_00111
+59	legier	léger	ADJ	ADJqua	_	57	advmod	_	XmlId=w_42_00112
+60	en	en1	ADP	PRE	_	61	case	_	XmlId=w_42_00113
+61	railleries	raillerie	NOUN	NOMcom	_	57	obl	_	XmlId=w_42_00114
+62	dissolues	dissoudre	VERB	VERppe	Tense=Past|VerbForm=Part	61	acl	_	XmlId=w_42_00115
+63	et	et	CCONJ	CONcoo	_	64	cc	_	XmlId=w_42_00116
+64	diffamations	diffamation	NOUN	NOMcom	_	61	conj	_	SpaceAfter=No|XmlId=w_42_00117
+65	,	,	PUNCT	PONfbl	_	70	punct	_	XmlId=w_42_00118
+66	dont	dont	PRON	PROrel	PronType=Rel	70	obl	_	XmlId=w_42_00119
+67	grans	grand	ADJ	ADJqua	_	68	amod	_	XmlId=w_42_00120
+68	maulx	mal1	NOUN	NOMcom	_	70	nsubj	_	XmlId=w_42_00121
+69	en	en2	ADV	PROadv	_	70	obl	_	XmlId=w_42_00122
+70	viennent	venir	VERB	VERcjg	VerbForm=Fin	64	acl:relcl	_	SpaceAfter=No|XmlId=w_42_00123
+71	,	,	PUNCT	PONfbl	_	70	punct	_	XmlId=w_42_00124
+72	et	et	CCONJ	CONcoo	_	74	cc	_	XmlId=w_42_00125
+73	pour	pour	ADP	PRE	_	74	mark	_	XmlId=w_42_00126
+74	eviter	éviter	VERB	VERinf	VerbForm=Inf	84	advcl	_	XmlId=w_42_00127
+75	oysiveté	oisiveté	NOUN	NOMcom	_	74	obj	_	XmlId=w_42_00128
+76	qui	qui1	PRON	PROrel	PronType=Rel	78	nsubj	_	XmlId=w_42_00129
+77	est	être	AUX	VERcjg	VerbForm=Fin	78	cop	_	XmlId=w_42_00130
+78	seur	sœur	NOUN	NOMcom	_	75	acl:relcl	_	XmlId=w_42_00131
+79	de	de	ADP	PRE	_	80	case	_	XmlId=w_42_00132
+80	pechié	péché	NOUN	NOMcom	_	78	nmod	_	SpaceAfter=No|XmlId=w_42_00133
+81	,	,	PUNCT	PONfbl	_	84	punct	_	XmlId=w_42_00134
+82	j'	je	PRON	PROper	PronType=Prs	84	nsubj	_	SpaceAfter=No|XmlId=w_42_00135
+83	ay	avoir	AUX	VERcjg	VerbForm=Fin	84	aux	_	XmlId=w_42_00136
+84	voulu	vouloir	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	XmlId=w_42_00137
+85	icy	ici	ADV	ADVgen	_	86	advmod	_	XmlId=w_42_00138
+86	mectre	mettre	VERB	VERinf	VerbForm=Inf	84	xcomp	_	XmlId=w_42_00139
+87	par	par1	ADP	PRE	_	88	case	_	XmlId=w_42_00140
+88	escript	écrit	NOUN	NOMcom	_	86	obl	_	XmlId=w_42_00141
+89	une	un	DET	DETndf	Definite=Ind|PronType=Art	90	det	_	XmlId=w_42_00142
+90	histoire	histoire	NOUN	NOMcom	_	86	obj	_	XmlId=w_42_00143
+91	joyeuse	joyeux1	ADJ	ADJqua	_	90	amod	_	XmlId=w_42_00144
+92	que	que	PRON	PROrel	PronType=Rel	95	obj	_	XmlId=w_42_00145
+93	j'	je	PRON	PROper	PronType=Prs	95	nsubj	_	SpaceAfter=No|XmlId=w_42_00146
+94	ay	avoir	AUX	VERcjg	VerbForm=Fin	95	aux	_	XmlId=w_42_00147
+95	translatee	translater	VERB	VERppe	Tense=Past|VerbForm=Part	90	acl:relcl	_	XmlId=w_42_00148
+96	d'	de	ADP	PRE	_	97	case	_	SpaceAfter=No|XmlId=w_42_00149
+97	espaignol	espagnol	ADJ	NOMcom	_	95	obl	_	XmlId=w_42_00150
+98	en	en1	ADP	PRE	_	99	case	_	XmlId=w_42_00151
+99	langue	langue	NOUN	NOMcom	_	95	obl	_	XmlId=w_42_00152
+100	françoise	français	ADJ	ADJqua	_	99	amod	_	SpaceAfter=No|XmlId=w_42_00153
+101	.	.	PUNCT	PONfrt	_	86	punct	_	XmlId=w_42_00154
+
+# text = ne parler ne pouvoit,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 235
+# tags = trans
+1	ne	ne2	CCONJ	CONcoo	_	4	cc:nc	_	XmlId=w_42_00413
+2	parler	parler	VERB	VERinf	VerbForm=Inf	4	xcomp	_	XmlId=w_42_00414
+3	ne	ne1	ADV	ADVneg	PronType=Neg	4	advmod	_	XmlId=w_42_00415
+4	pouvoit	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	SpaceAfter=No|XmlId=w_42_00416
+5	,	,	PUNCT	PONfbl	_	4	punct	_	XmlId=w_42_00417
+
+# text = car en bonne foy vous promectons que a nostre pouvoir ayderons a la mectre a fin le mieulx que nous sera possible, si faire le pouvons. »
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 239
+# tags = trans
+1	car	car	CCONJ	CONcoo	_	6	cc:nc	_	XmlId=w_42_00484
+2	en	en1	ADP	PRE	_	4	case	_	XmlId=w_42_00485
+3	bonne	bon	ADJ	ADJqua	_	4	amod	_	XmlId=w_42_00486
+4	foy	foi1	NOUN	NOMcom	_	6	obl	_	XmlId=w_42_00487
+5	vous	vous	PRON	PROper	PronType=Prs	6	iobj	_	XmlId=w_42_00488
+6	promectons	promettre	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_00489
+7	que	que	SCONJ	CONsub	_	11	mark	_	XmlId=w_42_00490
+8	a	à	ADP	PRE	_	10	case	_	XmlId=w_42_00491
+9	nostre	notre	DET	DETpos	Poss=Yes	10	det	_	XmlId=w_42_00492
+10	pouvoir	pouvoir1	NOUN	NOMcom	_	11	obl	_	XmlId=w_42_00493
+11	ayderons	aider	VERB	VERcjg	VerbForm=Fin	6	ccomp	_	XmlId=w_42_00494
+12	a	à	ADP	PRE	_	13	mark	_	XmlId=w_42_00495
+13	la	le	PRON	PROper	PronType=Prs	14	obj	_	XmlId=w_42_00496
+14	mectre	mettre	VERB	VERinf	VerbForm=Inf	11	xcomp	_	XmlId=w_42_00497
+15	a	à	ADP	PRE	_	16	case	_	XmlId=w_42_00498
+16	fin	fin1	NOUN	NOMcom	_	13	xcomp	_	XmlId=w_42_00499
+17	le	le	DET	DETdef	Definite=Def|PronType=Art	18	det	_	XmlId=w_42_00500
+18	mieulx	mieux	NOUN	NOMcom	_	14	obl	_	XmlId=w_42_00501
+19	que	que	SCONJ	PROrel	_	22	mark	_	XmlId=w_42_00502
+20	nous	nous	PRON	PROper	PronType=Prs	22	iobj	_	XmlId=w_42_00503
+21	sera	être	AUX	VERcjg	VerbForm=Fin	22	cop	_	XmlId=w_42_00504
+22	possible	possible	ADJ	ADJqua	_	18	acl	_	SpaceAfter=No|XmlId=w_42_00505
+23	,	,	PUNCT	PONfbl	_	11	punct	_	XmlId=w_42_00506
+24	si	si3	SCONJ	CONsub	_	27	mark	_	XmlId=w_42_00507
+25	faire	faire	VERB	VERinf	VerbForm=Inf	27	xcomp	_	XmlId=w_42_00508
+26	le	le	PRON	PROper	PronType=Prs	25	obj	_	XmlId=w_42_00509
+27	pouvons	pouvoir	VERB	VERcjg	VerbForm=Fin	11	advcl	_	SpaceAfter=No|XmlId=w_42_00510
+28	.	.	PUNCT	PONfrt	_	6	punct	_	XmlId=w_42_00511
+29	»	»	PUNCT	PONpdr	_	6	punct	_	XmlId=w_42_00512
+
+# text = Sachez, sire, que a grant tort et sans raison, et soubz couleur d'ung nouvel tribut que en mon royaulme avoit esté mis pour eviter a la dampnable entreprinse du roy de Grenade, infidele a nostre loy, qu'il avoit faict contre mon royaulme et la saincte foy catholique, les nobles de mon royaulme ont par leur faulx donné a entendre le peuple seduit a l'encontre de moy, que m'ont voulu faire morir, et m'en a faillu fouyr au mieulx que j'ay peu en l'estat que me povez veoir.
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 244
+# tags = trans
+1	Sachez	savoir1	VERB	VERcjg	VerbForm=Fin	0	root	_	SpaceAfter=No|XmlId=w_42_00601
+2	,	,	PUNCT	PONfbl	_	3	punct	_	XmlId=w_42_00602
+3	sire	sire	NOUN	NOMcom	_	1	vocative	_	SpaceAfter=No|XmlId=w_42_00603
+4	,	,	PUNCT	PONfbl	_	3	punct	_	XmlId=w_42_00604
+5	que	que	SCONJ	CONsub	_	65	mark	_	XmlId=w_42_00605
+6	a	à	ADP	PRE	_	8	case	_	XmlId=w_42_00606
+7	grant	grand	ADJ	ADJqua	_	8	amod	_	XmlId=w_42_00607
+8	tort	tort1	NOUN	NOMcom	_	65	obl	_	XmlId=w_42_00608
+9	et	et	CCONJ	CONcoo	_	11	cc	_	XmlId=w_42_00609
+10	sans	sans	ADP	PRE	_	11	case	_	XmlId=w_42_00610
+11	raison	raison	NOUN	NOMcom	_	8	conj	_	SpaceAfter=No|XmlId=w_42_00611
+12	,	,	PUNCT	PONfbl	_	15	punct	_	XmlId=w_42_00612
+13	et	et	CCONJ	CONcoo	_	15	cc	_	XmlId=w_42_00613
+14	soubz	sous	ADP	PRE	_	15	case	_	XmlId=w_42_00614
+15	couleur	couleur1	NOUN	NOMcom	_	8	conj	_	XmlId=w_42_00615
+16	d'	de	ADP	PRE	_	19	case	_	SpaceAfter=No|XmlId=w_42_00616
+17	ung	un	DET	DETndf	Definite=Ind|PronType=Art	19	det	_	XmlId=w_42_00617
+18	nouvel	nouveau	ADJ	ADJqua	_	19	amod	_	XmlId=w_42_00618
+19	tribut	tribut	NOUN	NOMcom	_	15	nmod	_	XmlId=w_42_00619
+20	que	que	PRON	PROrel	PronType=Rel	26	nsubj	_	XmlId=w_42_00620
+21	en	en1	ADP	PRE	_	23	case	_	XmlId=w_42_00621
+22	mon	mon1	DET	DETpos	Poss=Yes	23	det	_	XmlId=w_42_00622
+23	royaulme	royaume	NOUN	NOMcom	_	26	obl	_	XmlId=w_42_00623
+24	avoit	avoir	AUX	VERcjg	VerbForm=Fin	26	aux	_	XmlId=w_42_00624
+25	esté	être	AUX	VERppe	Tense=Past|VerbForm=Part	26	aux:pass	_	XmlId=w_42_00625
+26	mis	mettre	VERB	VERppe	Tense=Past|VerbForm=Part	19	acl:relcl	_	XmlId=w_42_00626
+27	pour	pour	ADP	PRE	_	28	mark	_	XmlId=w_42_00627
+28	eviter	éviter	VERB	VERinf	VerbForm=Inf	26	advcl	_	XmlId=w_42_00628
+29	a	à	ADP	PRE	_	32	case	_	XmlId=w_42_00629
+30	la	le	DET	DETdef	Definite=Def|PronType=Art	32	det	_	XmlId=w_42_00630
+31	dampnable	damnable	ADJ	ADJqua	_	32	amod	_	XmlId=w_42_00631
+32	entreprinse	entreprise	NOUN	NOMcom	_	28	obl	_	XmlId=w_42_00632
+33	du	de.le	ADP	PRE.DETdef	_	34	case:det	_	XmlId=w_42_00633
+34	roy	roi1	NOUN	NOMcom	_	32	nmod	_	XmlId=w_42_00634
+35	de	de	ADP	PRE	_	36	case	_	XmlId=w_42_00635
+36	Grenade	Grenade	PROPN	NOMpro	_	34	nmod	_	SpaceAfter=No|XmlId=w_42_00636
+37	,	,	PUNCT	PONfbl	_	38	punct	_	XmlId=w_42_00637
+38	infidele	infidèle	ADJ	ADJqua	_	34	amod	_	XmlId=w_42_00638
+39	a	à	ADP	PRE	_	41	case	_	XmlId=w_42_00639
+40	nostre	notre	DET	DETpos	Poss=Yes	41	det	_	XmlId=w_42_00640
+41	loy	loi1	NOUN	NOMcom	_	38	nmod	_	SpaceAfter=No|XmlId=w_42_00641
+42	,	,	PUNCT	PONfbl	_	38	punct	_	XmlId=w_42_00642
+43	qu'	que	PRON	PROrel	PronType=Rel	46	obj	_	SpaceAfter=No|XmlId=w_42_00643
+44	il	il	PRON	PROper	PronType=Prs	46	nsubj	_	XmlId=w_42_00644
+45	avoit	avoir	AUX	VERcjg	VerbForm=Fin	46	aux	_	XmlId=w_42_00645
+46	faict	faire	VERB	VERppe	Tense=Past|VerbForm=Part	32	acl:relcl	_	XmlId=w_42_00646
+47	contre	contre3	ADP	PRE	_	49	case	_	XmlId=w_42_00647
+48	mon	mon1	DET	DETpos	Poss=Yes	49	det	_	XmlId=w_42_00648
+49	royaulme	royaume	NOUN	NOMcom	_	46	obl	_	XmlId=w_42_00649
+50	et	et	CCONJ	CONcoo	_	53	cc	_	XmlId=w_42_00650
+51	la	le	DET	DETdef	Definite=Def|PronType=Art	53	det	_	XmlId=w_42_00651
+52	saincte	saint	ADJ	ADJqua	_	53	amod	_	XmlId=w_42_00652
+53	foy	foi1	NOUN	NOMcom	_	49	conj	_	XmlId=w_42_00653
+54	catholique	catholique	ADJ	ADJqua	_	49	amod	_	SpaceAfter=No|XmlId=w_42_00654
+55	,	,	PUNCT	PONfbl	_	65	punct	_	XmlId=w_42_00655
+56	les	le	DET	DETdef	Definite=Def|PronType=Art	57	det	_	XmlId=w_42_00656
+57	nobles	noble1	NOUN	NOMcom	_	65	nsubj	_	XmlId=w_42_00657
+58	de	de	ADP	PRE	_	60	case	_	XmlId=w_42_00658
+59	mon	mon1	DET	DETpos	Poss=Yes	60	det	_	XmlId=w_42_00659
+60	royaulme	royaume	NOUN	NOMcom	_	57	nmod	_	XmlId=w_42_00660
+61	ont	avoir	AUX	VERcjg	VerbForm=Fin	65	aux	_	XmlId=w_42_00661
+62	par	par1	ADP	PRE	_	64	case	_	XmlId=w_42_00662
+63	leur	leur2	DET	DETpos	Poss=Yes	64	det	_	XmlId=w_42_00663
+64	faulx	faut	NOUN	NOMcom	_	65	obl	_	XmlId=w_42_00664
+65	donné	donner	VERB	VERppe	Tense=Past|VerbForm=Part	1	ccomp	_	XmlId=w_42_00665
+66	a	à	ADP	PRE	_	67	mark	_	XmlId=w_42_00666
+67	entendre	entendre	VERB	VERinf	VerbForm=Inf	65	xcomp	_	XmlId=w_42_00667
+68	le	le	DET	DETdef	Definite=Def|PronType=Art	69	det	_	XmlId=w_42_00668
+69	peuple	peuple1	NOUN	NOMcom	_	67	obl	_	XmlId=w_42_00669
+70	seduit	séduire	VERB	VERppe	Tense=Past|VerbForm=Part	69	acl	_	XmlId=w_42_00670
+71	a	à	ADP	PRE	_	73	case	_	XmlId=w_42_00671
+72	l'	le	DET	DETdef	Definite=Def|PronType=Art	73	det	_	SpaceAfter=No|XmlId=w_42_00672
+73	encontre	encontre1	NOUN	NOMcom	_	70	obl	_	XmlId=w_42_00673
+74	de	de	ADP	PRE	_	75	case	_	XmlId=w_42_00674
+75	moy	moi	PRON	PROper	PronType=Prs	73	nmod	_	SpaceAfter=No|XmlId=w_42_00675
+76	,	,	PUNCT	PONfbl	_	80	punct	_	XmlId=w_42_00676
+77	que	que	SCONJ	CONsub	_	80	mark	_	XmlId=w_42_00677
+78	m'	me	PRON	PROper	PronType=Prs	81	obj	_	SpaceAfter=No|XmlId=w_42_00678
+79	ont	avoir	AUX	VERcjg	VerbForm=Fin	80	aux	_	XmlId=w_42_00679
+80	voulu	vouloir	VERB	VERppe	Tense=Past|VerbForm=Part	65	conj	_	XmlId=w_42_00680
+81	faire	faire	VERB	VERinf	VerbForm=Inf	80	xcomp	_	XmlId=w_42_00681
+82	morir	mourir	VERB	VERinf	VerbForm=Inf	81	xcomp	_	SpaceAfter=No|XmlId=w_42_00682
+83	,	,	PUNCT	PONfbl	_	88	punct	_	XmlId=w_42_00683
+84	et	et	CCONJ	CONcoo	_	88	cc	_	XmlId=w_42_00684
+85	m'	me	PRON	PROper	PronType=Prs	89	iobj	_	SpaceAfter=No|XmlId=w_42_00685
+86	en	en2	ADV	PROadv	_	89	obl:advmod	_	XmlId=w_42_00686
+87	a	avoir	AUX	VERcjg	VerbForm=Fin	88	aux	_	XmlId=w_42_00687
+88	faillu	falloir	VERB	VERppe	Tense=Past|VerbForm=Part	65	conj	_	XmlId=w_42_00688
+89	fouyr	fuir	VERB	VERinf	VerbForm=Inf	88	xcomp	_	XmlId=w_42_00689
+90	au	à.le	ADP	PRE.DETdef	_	91	case:det	_	XmlId=w_42_00690
+91	mieulx	mieux	NOUN	NOMcom	_	89	obl	_	XmlId=w_42_00691
+92	que	que	SCONJ	PROrel	_	95	mark	_	XmlId=w_42_00692
+93	j'	je	PRON	PROper	PronType=Prs	95	nsubj	_	SpaceAfter=No|XmlId=w_42_00693
+94	ay	avoir	AUX	VERcjg	VerbForm=Fin	95	aux	_	XmlId=w_42_00694
+95	peu	pouvoir	VERB	VERppe	Tense=Past|VerbForm=Part	91	acl	_	XmlId=w_42_00695
+96	en	en1	ADP	PRE	_	98	case	_	XmlId=w_42_00696
+97	l'	le	DET	DETdef	Definite=Def|PronType=Art	98	det	_	SpaceAfter=No|XmlId=w_42_00697
+98	estat	état	NOUN	NOMcom	_	89	obl	_	XmlId=w_42_00698
+99	que	que	PRON	PROrel	PronType=Rel	102	obj	_	XmlId=w_42_00699
+100	me	me	PRON	PROper	PronType=Prs	101	nsubj	_	XmlId=w_42_00700
+101	povez	pouvoir	VERB	VERcjg	VerbForm=Fin	98	acl:relcl	_	XmlId=w_42_00701
+102	veoir	voir1	VERB	VERinf	VerbForm=Inf	101	xcomp	_	SpaceAfter=No|XmlId=w_42_00702
+103	.	.	PUNCT	PONfrt	_	1	punct	_	XmlId=w_42_00703
+
+# text = et me firent responce de bouche en disant qu'ilz s'esmerveilloient grandement de quoy vous preniez peine et soucy d'une chose qui en riens ne vous touchoit, et que vous ne vous mectez ja en telle adventure de les aller chercher au pays pour telle achoison, et que par quelque promesse que leur dit roy vous aye fait ne vous en debvez mesler,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 289
+# tags = trans
+1	et	et	CCONJ	CONcoo	_	3	cc:nc	_	XmlId=w_42_01496
+2	me	me	PRON	PROper	PronType=Prs	3	obj	_	XmlId=w_42_01497
+3	firent	faire	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_01498
+4	responce	réponse	NOUN	NOMcom	_	3	obj	_	XmlId=w_42_01499
+5	de	de	ADP	PRE	_	6	case	_	XmlId=w_42_01500
+6	bouche	bouche1	NOUN	NOMcom	_	4	nmod	_	XmlId=w_42_01501
+7	en	en1	ADP	PRE	_	8	mark	_	XmlId=w_42_01502
+8	disant	dire1	VERB	VERppa	Tense=Pres|VerbForm=Part	3	advcl	_	XmlId=w_42_01503
+9	qu'	que	SCONJ	CONsub	_	12	mark	_	SpaceAfter=No|XmlId=w_42_01504
+10	ilz	il	PRON	PROper	PronType=Prs	12	nsubj	_	XmlId=w_42_01505
+11	s'	se1	PRON	PROper	PronType=Prs	12	expl	_	SpaceAfter=No|XmlId=w_42_01506
+12	esmerveilloient	émerveiller	VERB	VERcjg	VerbForm=Fin	8	ccomp	_	XmlId=w_42_01507
+13	grandement	grandement	ADV	ADVgen	_	12	advmod	_	XmlId=w_42_01508
+14	de	de	ADP	PRE	_	15	case	_	XmlId=w_42_01509
+15	quoy	quoi	PRON	PROrel	PronType=Rel	12	obl	_	XmlId=w_42_01510
+16	vous	vous	PRON	PROper	PronType=Prs	17	nsubj	_	XmlId=w_42_01511
+17	preniez	prendre	VERB	VERcjg	VerbForm=Fin	15	acl	_	XmlId=w_42_01512
+18	peine	peine	NOUN	NOMcom	_	17	obj	_	XmlId=w_42_01513
+19	et	et	CCONJ	CONcoo	_	20	cc	_	XmlId=w_42_01514
+20	soucy	souci	NOUN	NOMcom	_	18	conj	_	XmlId=w_42_01515
+21	d'	de	ADP	PRE	_	23	case	_	SpaceAfter=No|XmlId=w_42_01516
+22	une	un	DET	DETndf	Definite=Ind|PronType=Art	23	det	_	XmlId=w_42_01517
+23	chose	chose	NOUN	NOMcom	_	18	nmod	_	XmlId=w_42_01518
+24	qui	qui1	PRON	PROrel	PronType=Rel	29	nsubj	_	XmlId=w_42_01519
+25	en	en1	ADP	PRE	_	26	case	_	XmlId=w_42_01520
+26	riens	rien	PRON	PROind	PronType=Ind	29	obl	_	XmlId=w_42_01521
+27	ne	ne1	ADV	ADVneg	PronType=Neg	29	advmod	_	XmlId=w_42_01522
+28	vous	vous	PRON	PROper	PronType=Prs	29	obj	_	XmlId=w_42_01523
+29	touchoit	toucher	VERB	VERcjg	VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No|XmlId=w_42_01524
+30	,	,	PUNCT	PONfbl	_	36	punct	_	XmlId=w_42_01525
+31	et	et	CCONJ	CONcoo	_	36	cc	_	XmlId=w_42_01526
+32	que	que	SCONJ	CONsub	_	36	mark	_	XmlId=w_42_01527
+33	vous	vous	PRON	PROper	PronType=Prs	36	nsubj	_	XmlId=w_42_01528
+34	ne	ne1	ADV	ADVneg	PronType=Neg	36	advmod	_	XmlId=w_42_01529
+35	vous	vous	PRON	PROper	PronType=Prs	36	expl	_	XmlId=w_42_01530
+36	mectez	mettre	VERB	VERcjg	VerbForm=Fin	12	conj	_	XmlId=w_42_01531
+37	ja	jà	ADV	ADVgen	_	36	advmod	_	XmlId=w_42_01532
+38	en	en1	ADP	PRE	_	40	case	_	XmlId=w_42_01533
+39	telle	tel	DET	DETind	PronType=Ind	40	amod	_	XmlId=w_42_01534
+40	adventure	aventure	NOUN	NOMcom	_	36	obl	_	XmlId=w_42_01535
+41	de	de	ADP	PRE	_	44	mark	_	XmlId=w_42_01536
+42	les	le	PRON	PROper	PronType=Prs	44	obj	_	XmlId=w_42_01537
+43	aller	aller	VERB	VERinf	VerbForm=Inf	40	acl	_	XmlId=w_42_01538
+44	chercher	chercher	VERB	VERinf	VerbForm=Inf	43	xcomp	_	XmlId=w_42_01539
+45	au	à.le	ADP	PRE.DETdef	_	44	case:det	_	XmlId=w_42_01540
+46	pays	pays	NOUN	NOMcom	_	44	obl	_	XmlId=w_42_01541
+47	pour	pour	ADP	PRE	_	49	case	_	XmlId=w_42_01542
+48	telle	tel	DET	DETind	PronType=Ind	49	amod	_	XmlId=w_42_01543
+49	achoison	ochaison	NOUN	NOMcom	_	44	obl	_	SpaceAfter=No|XmlId=w_42_01544
+50	,	,	PUNCT	PONfbl	_	66	punct	_	XmlId=w_42_01545
+51	et	et	CCONJ	CONcoo	_	66	cc	_	XmlId=w_42_01546
+52	que	que	SCONJ	CONsub	_	66	mark	_	XmlId=w_42_01547
+53	par	par1	ADP	PRE	_	55	case	_	XmlId=w_42_01548
+54	quelque	quelque	DET	DETind	PronType=Ind	55	det	_	XmlId=w_42_01549
+55	promesse	promesse	NOUN	NOMcom	_	67	obl	_	XmlId=w_42_01550
+56	que	que	PRON	PROrel	PronType=Rel	62	obj	_	XmlId=w_42_01551
+57	leur	leur1	PRON	PROper	PronType=Prs	59	det	_	XmlId=w_42_01552
+58	dit	dire1	VERB	ADJqua	_	59	acl	_	XmlId=w_42_01553
+59	roy	roi1	NOUN	NOMcom	_	62	nsubj	_	XmlId=w_42_01554
+60	vous	vous	PRON	PROper	PronType=Prs	62	iobj	_	XmlId=w_42_01555
+61	aye	avoir	AUX	VERcjg	VerbForm=Fin	62	aux	_	XmlId=w_42_01556
+62	fait	faire	VERB	VERppe	Tense=Past|VerbForm=Part	55	acl:relcl	_	XmlId=w_42_01557
+63	ne	ne1	ADV	ADVneg	PronType=Neg	66	advmod	_	XmlId=w_42_01558
+64	vous	vous	PRON	PROper	PronType=Prs	67	expl	_	XmlId=w_42_01559
+65	en	en2	ADV	PROadv	_	67	obl	_	XmlId=w_42_01560
+66	debvez	devoir	VERB	VERcjg	VerbForm=Fin	12	conj	_	XmlId=w_42_01561
+67	mesler	mêler	VERB	VERinf	VerbForm=Inf	66	xcomp	_	SpaceAfter=No|XmlId=w_42_01562
+68	,	,	PUNCT	PONfbl	_	3	punct	_	XmlId=w_42_01563
+
+# text = car pour voz lectres ne pour voz menasses ne lairront a mectre fin a leur entreprinse,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 290
+# tags = trans
+1	car	car	CCONJ	CONcoo	_	10	cc:nc	_	XmlId=w_42_01564
+2	pour	pour	ADP	PRE	_	4	case	_	XmlId=w_42_01565
+3	voz	votre	DET	DETpos	Poss=Yes	4	det	_	XmlId=w_42_01566
+4	lectres	lettre	NOUN	NOMcom	_	10	obl	_	XmlId=w_42_01567
+5	ne	ne1	ADV	ADVneg	PronType=Neg	8	advmod	_	XmlId=w_42_01568
+6	pour	pour	ADP	PRE	_	8	case	_	XmlId=w_42_01569
+7	voz	votre	DET	DETpos	Poss=Yes	8	det	_	XmlId=w_42_01570
+8	menasses	menace	NOUN	NOMcom	_	4	conj	_	XmlId=w_42_01571
+9	ne	ne1	ADV	ADVneg	PronType=Neg	10	advmod	_	XmlId=w_42_01572
+10	lairront	laisser	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_01573
+11	a	à	ADP	PRE	_	12	mark	_	XmlId=w_42_01574
+12	mectre	mettre	VERB	VERinf	VerbForm=Inf	10	xcomp	_	XmlId=w_42_01575
+13	fin	fin1	NOUN	NOMcom	_	12	obj	_	XmlId=w_42_01576
+14	a	à	ADP	PRE	_	16	case	_	XmlId=w_42_01577
+15	leur	leur2	DET	DETpos	Poss=Yes	16	det	_	XmlId=w_42_01578
+16	entreprinse	entreprise	NOUN	NOMcom	_	12	obl	_	SpaceAfter=No|XmlId=w_42_01579
+17	,	,	PUNCT	PONfbl	_	10	punct	_	XmlId=w_42_01580
+
+# text = Et quant je vis que aultre chose ne pouvois faire, m'en suis retourné,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 295
+# tags = trans
+1	Et	et	CCONJ	CONcoo	_	15	cc:nc	_	XmlId=w_42_01631
+2	quant	quand	SCONJ	CONsub	_	4	mark	_	XmlId=w_42_01632
+3	je	je	PRON	PROper	PronType=Prs	4	nsubj	_	XmlId=w_42_01633
+4	vis	voir1	VERB	VERcjg	VerbForm=Fin	15	advcl	_	XmlId=w_42_01634
+5	que	que	SCONJ	CONsub	_	9	mark	_	XmlId=w_42_01635
+6	aultre	autre	DET	DETind	PronType=Ind	7	det	_	XmlId=w_42_01636
+7	chose	chose	NOUN	NOMcom	_	10	obj	_	XmlId=w_42_01637
+8	ne	ne1	ADV	ADVneg	PronType=Neg	9	advmod	_	XmlId=w_42_01638
+9	pouvois	pouvoir	VERB	VERcjg	VerbForm=Fin	4	ccomp	_	XmlId=w_42_01639
+10	faire	faire	VERB	VERinf	VerbForm=Inf	9	xcomp	_	SpaceAfter=No|XmlId=w_42_01640
+11	,	,	PUNCT	PONfbl	_	15	punct	_	XmlId=w_42_01641
+12	m'	me	PRON	PROper	PronType=Prs	15	expl	_	SpaceAfter=No|XmlId=w_42_01642
+13	en	en2	ADV	PROadv	_	15	obl	_	XmlId=w_42_01643
+14	suis	être	AUX	VERcjg	VerbForm=Fin	15	aux	_	XmlId=w_42_01644
+15	retourné	retourner	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No|XmlId=w_42_01645
+16	,	,	PUNCT	PONfbl	_	15	punct	_	XmlId=w_42_01646
+
+# text = et ne la pourroient prendre d'ung long temps, se il y a vivres dedans et gens qu'ilz soient leaulx a leur dame. »
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 297
+# tags = trans
+1	et	et	CCONJ	CONcoo	_	4	cc:nc	_	XmlId=w_42_01661
+2	ne	ne1	ADV	ADVneg	PronType=Neg	4	advmod	_	XmlId=w_42_01662
+3	la	le	PRON	PROper	PronType=Prs	5	obj	_	XmlId=w_42_01663
+4	pourroient	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_01664
+5	prendre	prendre	VERB	VERinf	VerbForm=Inf	4	xcomp	_	XmlId=w_42_01665
+6	d'	de	ADP	PRE	_	9	case	_	SpaceAfter=No|XmlId=w_42_01666
+7	ung	un	DET	DETndf	Definite=Ind|PronType=Art	9	det	_	XmlId=w_42_01667
+8	long	long	ADJ	ADJqua	_	9	amod	_	XmlId=w_42_01668
+9	temps	temps	NOUN	NOMcom	_	5	obl	_	SpaceAfter=No|XmlId=w_42_01669
+10	,	,	PUNCT	PONfbl	_	9	punct	_	XmlId=w_42_01670
+11	se	si3	SCONJ	CONsub	_	14	mark	_	XmlId=w_42_01671
+12	il	il	PRON	PROimp	PronType=Prs	14	expl	_	XmlId=w_42_01672
+13	y	y2	ADV	PROadv	_	14	obl:advmod	_	XmlId=w_42_01673
+14	a	avoir1	VERB	VERcjg	VerbForm=Fin	4	advcl	_	XmlId=w_42_01674
+15	vivres	vivre2	NOUN	NOMcom	_	14	obl	_	XmlId=w_42_01675
+16	dedans	dedans	ADV	ADVgen	_	14	advmod	_	XmlId=w_42_01676
+17	et	et	CCONJ	CONcoo	_	18	cc	_	XmlId=w_42_01677
+18	gens	gens	NOUN	NOMcom	_	15	conj	_	XmlId=w_42_01678
+19	qu'	que	SCONJ	PROrel	_	22	mark	_	SpaceAfter=No|XmlId=w_42_01679
+20	ilz	il	PRON	PROper	PronType=Prs	22	nsubj	_	XmlId=w_42_01680
+21	soient	être	AUX	VERcjg	VerbForm=Fin	22	cop	_	XmlId=w_42_01681
+22	leaulx	loyal	ADJ	ADJqua	_	18	acl:relcl	_	XmlId=w_42_01682
+23	a	à	ADP	PRE	_	9	case	_	XmlId=w_42_01683
+24	leur	leur2	DET	DETpos	Poss=Yes	9	det	_	XmlId=w_42_01684
+25	dame	dame1	NOUN	NOMcom	_	22	obl	_	SpaceAfter=No|XmlId=w_42_01685
+26	.	.	PUNCT	PONfrt	_	4	punct	_	XmlId=w_42_01686
+27	»	»	PUNCT	PONpdr	_	4	punct	_	XmlId=w_42_01687
+
+# text = Ceulx qui estoient venuz pour ladicte embassade furent bien esbays, et non pas sans bonne raison, voyant que a la puissance de France ne pourroient resister, et mesmement que ja les deux tiers du pays estoit ja en sa main.
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 328
+# tags = trans
+1	Ceulx	cil	PRON	PROdem	PronType=Dem	10	nsubj	_	XmlId=w_42_02310
+2	qui	qui1	PRON	PROrel	PronType=Rel	4	nsubj	_	XmlId=w_42_02311
+3	estoient	être	AUX	VERcjg	VerbForm=Fin	4	aux	_	XmlId=w_42_02312
+4	venuz	venir	VERB	VERppe	Tense=Past|VerbForm=Part	1	acl:relcl	_	XmlId=w_42_02313
+5	pour	pour	ADP	PRE	_	7	case	_	XmlId=w_42_02314
+6	ladicte	ledit	DET	DETcom	Definite=Com	7	det	_	XmlId=w_42_02315
+7	embassade	ambassade	NOUN	NOMcom	_	4	obl	_	XmlId=w_42_02316
+8	furent	être	AUX	VERcjg	VerbForm=Fin	10	aux:pass	_	XmlId=w_42_02317
+9	bien	bien	ADV	ADVgen	_	10	advmod	_	XmlId=w_42_02318
+10	esbays	ébahir	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No|XmlId=w_42_02319
+11	,	,	PUNCT	PONfbl	_	17	punct	_	XmlId=w_42_02320
+12	et	et	CCONJ	CONcoo	_	17	cc	_	XmlId=w_42_02321
+13	non	non	ADV	ADVneg	PronType=Neg	17	advmod	_	XmlId=w_42_02322
+14	pas	pas1	ADV	ADVneg	PronType=Neg	17	advmod	_	XmlId=w_42_02323
+15	sans	sans	ADP	PRE	_	17	case	_	XmlId=w_42_02324
+16	bonne	bon	ADJ	ADJqua	_	17	amod	_	XmlId=w_42_02325
+17	raison	raison	NOUN	NOMcom	_	10	obl	_	SpaceAfter=No|XmlId=w_42_02326
+18	,	,	PUNCT	PONfbl	_	17	punct	_	XmlId=w_42_02327
+19	voyant	voir1	VERB	VERppa	Tense=Pres|VerbForm=Part	10	advcl	_	XmlId=w_42_02328
+20	que	que	SCONJ	CONsub	_	27	mark	_	XmlId=w_42_02329
+21	a	à	ADP	PRE	_	23	case	_	XmlId=w_42_02330
+22	la	le	DET	DETdef	Definite=Def|PronType=Art	23	det	_	XmlId=w_42_02331
+23	puissance	puissance	NOUN	NOMcom	_	28	obl	_	XmlId=w_42_02332
+24	de	de	ADP	PRE	_	25	case	_	XmlId=w_42_02333
+25	France	France	PROPN	NOMpro	_	23	nmod	_	XmlId=w_42_02334
+26	ne	ne1	ADV	ADVneg	PronType=Neg	27	advmod	_	XmlId=w_42_02335
+27	pourroient	pouvoir	VERB	VERcjg	VerbForm=Fin	19	ccomp	_	XmlId=w_42_02336
+28	resister	résister	VERB	VERinf	VerbForm=Inf	27	xcomp	_	SpaceAfter=No|XmlId=w_42_02337
+29	,	,	PUNCT	PONfbl	_	27	punct	_	XmlId=w_42_02338
+30	et	et	CCONJ	CONcoo	_	39	cc	_	XmlId=w_42_02339
+31	mesmement	mêmement	ADV	ADVgen	_	39	mark	_	XmlId=w_42_02340
+32	que	que	SCONJ	CONsub	_	31	fixed	_	XmlId=w_42_02341
+33	ja	jà	ADV	ADVgen	_	39	advmod	_	XmlId=w_42_02342
+34	les	le	DET	DETdef	Definite=Def|PronType=Art	36	det	_	XmlId=w_42_02343
+35	deux	deux	ADJ	ADJcar	NumType=Card	36	amod	_	XmlId=w_42_02344
+36	tiers	tiers	NOUN	NOMcom	_	39	nsubj	_	XmlId=w_42_02345
+37	du	de.le	ADP	PRE.DETdef	_	36	case:det	_	XmlId=w_42_02346
+38	pays	pays	NOUN	NOMcom	_	36	nmod	_	XmlId=w_42_02347
+39	estoit	être1	VERB	VERcjg	VerbForm=Fin	27	conj	_	XmlId=w_42_02348
+40	ja	jà	ADV	ADVgen	_	39	advmod	_	XmlId=w_42_02349
+41	en	en1	ADP	PRE	_	43	case	_	XmlId=w_42_02350
+42	sa	son4	DET	DETpos	Poss=Yes	43	det	_	XmlId=w_42_02351
+43	main	main1	NOUN	NOMcom	_	39	obl	_	SpaceAfter=No|XmlId=w_42_02352
+44	.	.	PUNCT	PONfrt	_	10	punct	_	XmlId=w_42_02353
+
+# text = Comment le populaire fut tantost dessevré d'avec les seigneurs, par quoy, voyant que resister ne pouvoient, si vindrent tous a la mercy du roy de France en la forme que les embassadeurs leur avoient denuncié,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 333
+# tags = trans
+1	Comment	comment2	ADV	ADVsub	_	6	advmod	_	XmlId=w_42_02452
+2	le	le	DET	DETdef	Definite=Def|PronType=Art	3	det	_	XmlId=w_42_02453
+3	populaire	populaire	NOUN	NOMcom	_	6	nsubj	_	XmlId=w_42_02454
+4	fut	être	AUX	VERcjg	VerbForm=Fin	6	aux:pass	_	XmlId=w_42_02455
+5	tantost	tantôt	ADV	ADVgen	_	6	advmod	_	XmlId=w_42_02456
+6	dessevré	dessevrer	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	XmlId=w_42_02457
+7	d'	de	ADP	PRE	_	10	case	_	SpaceAfter=No|XmlId=w_42_02458
+8	avec	avec	ADP	PRE	_	10	case	_	XmlId=w_42_02459
+9	les	le	DET	DETdef	Definite=Def|PronType=Art	10	det	_	XmlId=w_42_02460
+10	seigneurs	seigneur	NOUN	NOMcom	_	6	obl	_	SpaceAfter=No|XmlId=w_42_02461
+11	,	,	PUNCT	PONfbl	_	13	punct	_	XmlId=w_42_02462
+12	par	par1	ADP	PRE	_	13	case	_	XmlId=w_42_02463
+13	quoy	quoi	PRON	PROrel	PronType=Rel	22	obl	_	SpaceAfter=No|XmlId=w_42_02464
+14	,	,	PUNCT	PONfbl	_	13	punct	_	XmlId=w_42_02465
+15	voyant	voir1	VERB	VERppa	Tense=Pres|VerbForm=Part	22	advcl	_	XmlId=w_42_02466
+16	que	que	SCONJ	CONsub	_	19	mark	_	XmlId=w_42_02467
+17	resister	résister	VERB	VERinf	VerbForm=Inf	19	xcomp	_	XmlId=w_42_02468
+18	ne	ne1	ADV	ADVneg	PronType=Neg	19	advmod	_	XmlId=w_42_02469
+19	pouvoient	pouvoir	VERB	VERcjg	VerbForm=Fin	15	ccomp	_	SpaceAfter=No|XmlId=w_42_02470
+20	,	,	PUNCT	PONfbl	_	22	punct	_	XmlId=w_42_02471
+21	si	si4	ADV	ADVgen	_	22	advmod	_	XmlId=w_42_02472
+22	vindrent	venir	VERB	VERcjg	VerbForm=Fin	6	advcl	_	XmlId=w_42_02473
+23	tous	tous	PRON	PROind	PronType=Ind	22	nsubj	_	XmlId=w_42_02474
+24	a	à	ADP	PRE	_	26	case	_	XmlId=w_42_02475
+25	la	le	DET	DETdef	Definite=Def|PronType=Art	26	det	_	XmlId=w_42_02476
+26	mercy	merci	NOUN	NOMcom	_	22	obl	_	XmlId=w_42_02477
+27	du	de.le	ADP	PRE.DETdef	_	28	case:det	_	XmlId=w_42_02478
+28	roy	roi1	NOUN	NOMcom	_	26	nmod	_	XmlId=w_42_02479
+29	de	de	ADP	PRE	_	30	case	_	XmlId=w_42_02480
+30	France	France	PROPN	NOMpro	_	28	nmod	_	XmlId=w_42_02481
+31	en	en1	ADP	PRE	_	33	case	_	XmlId=w_42_02482
+32	la	le	DET	DETdef	Definite=Def|PronType=Art	33	det	_	XmlId=w_42_02483
+33	forme	forme	NOUN	NOMcom	_	26	nmod	_	XmlId=w_42_02484
+34	que	que	PRON	PROrel	PronType=Rel	39	obj	_	XmlId=w_42_02485
+35	les	le	DET	DETdef	Definite=Def|PronType=Art	36	det	_	XmlId=w_42_02486
+36	embassadeurs	ambassadeur	NOUN	NOMcom	_	39	nsubj	_	XmlId=w_42_02487
+37	leur	leur1	PRON	PROper	PronType=Prs	39	iobj	_	XmlId=w_42_02488
+38	avoient	avoir	AUX	VERcjg	VerbForm=Fin	39	aux	_	XmlId=w_42_02489
+39	denuncié	dénoncer	VERB	VERppe	Tense=Past|VerbForm=Part	33	acl:relcl	_	SpaceAfter=No|XmlId=w_42_02490
+40	,	,	PUNCT	PONfbl	_	6	punct	_	XmlId=w_42_02491
+
+# text = Quant elle fut devant le roy de France, elle se mit a deux genoulx d'aussi loing qu'elle le peut veoir,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 338
+# tags = trans
+1	Quant	quand	SCONJ	CONsub	_	3	mark	_	XmlId=w_42_02579
+2	elle	elle1	PRON	PROper	PronType=Prs	3	nsubj	_	XmlId=w_42_02580
+3	fut	être1	VERB	VERcjg	VerbForm=Fin	12	advcl	_	XmlId=w_42_02581
+4	devant	devant	ADP	PRE	_	6	case	_	XmlId=w_42_02582
+5	le	le	DET	DETdef	Definite=Def|PronType=Art	6	det	_	XmlId=w_42_02583
+6	roy	roi1	NOUN	NOMcom	_	3	obl	_	XmlId=w_42_02584
+7	de	de	ADP	PRE	_	8	case	_	XmlId=w_42_02585
+8	France	France	PROPN	NOMpro	_	6	nmod	_	SpaceAfter=No|XmlId=w_42_02586
+9	,	,	PUNCT	PONfbl	_	12	punct	_	XmlId=w_42_02587
+10	elle	elle1	PRON	PROper	PronType=Prs	12	nsubj	_	XmlId=w_42_02588
+11	se	se1	PRON	PROper	PronType=Prs	12	expl	_	XmlId=w_42_02589
+12	mit	mettre	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_02590
+13	a	à	ADP	PRE	_	15	case	_	XmlId=w_42_02591
+14	deux	deux	DET	DETcar	NumType=Card	15	det	_	XmlId=w_42_02592
+15	genoulx	genou1	NOUN	NOMcom	_	12	obl	_	XmlId=w_42_02593
+16	d'	de	ADP	PRE	_	18	case	_	SpaceAfter=No|XmlId=w_42_02594
+17	aussi	aussi	ADV	ADVgen	_	18	advmod	_	XmlId=w_42_02595
+18	loing	loin	ADV	ADVgen	_	12	obl	_	XmlId=w_42_02596
+19	qu'	que	SCONJ	CONsub	_	22	mark	_	SpaceAfter=No|XmlId=w_42_02597
+20	elle	elle1	PRON	PROper	PronType=Prs	22	nsubj	_	XmlId=w_42_02598
+21	le	le	PRON	PROper	PronType=Prs	23	obj	_	XmlId=w_42_02599
+22	peut	pouvoir	VERB	VERcjg	VerbForm=Fin	18	advcl	_	XmlId=w_42_02600
+23	veoir	voir1	VERB	VERinf	VerbForm=Inf	22	xcomp	_	SpaceAfter=No|XmlId=w_42_02601
+24	,	,	PUNCT	PONfbl	_	12	punct	_	XmlId=w_42_02602
+
+# text = « Helas, treshault et puissant roy, qui pourroit vous recompancer le treshault bien et secours que de vostre benigne grace avez donné a ceste pouvre captive ?
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 341
+# tags = trans
+1	«	«	PUNCT	PONpga	_	10	punct	_	XmlId=w_42_02638
+2	Helas	hélas	ADV	INJ	_	10	discourse	_	SpaceAfter=No|XmlId=w_42_02639
+3	,	,	PUNCT	PONfbl	_	7	punct	_	XmlId=w_42_02640
+4	treshault	haut	ADJ	ADJqua	_	7	amod	_	XmlId=w_42_02641
+5	et	et	CCONJ	CONcoo	_	6	cc	_	XmlId=w_42_02642
+6	puissant	puissant	ADJ	ADJqua	_	4	conj	_	XmlId=w_42_02643
+7	roy	roi1	NOUN	NOMcom	_	10	vocative	_	SpaceAfter=No|XmlId=w_42_02644
+8	,	,	PUNCT	PONfbl	_	7	punct	_	XmlId=w_42_02645
+9	qui	qui1	PRON	PROrel	PronType=Rel	10	nsubj	_	XmlId=w_42_02646
+10	pourroit	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_02647
+11	vous	vous	PRON	PROper	PronType=Prs	12	obj	_	XmlId=w_42_02648
+12	recompancer	récompenser	VERB	VERinf	VerbForm=Inf	10	xcomp	_	XmlId=w_42_02649
+13	le	le	DET	DETdef	Definite=Def|PronType=Art	15	det	_	XmlId=w_42_02650
+14	treshault	haut	ADJ	ADJqua	_	15	amod	_	XmlId=w_42_02651
+15	bien	bien	NOUN	NOMcom	_	12	obl	_	XmlId=w_42_02652
+16	et	et	CCONJ	CONcoo	_	17	cc	_	XmlId=w_42_02653
+17	secours	secours	NOUN	NOMcom	_	15	conj	_	XmlId=w_42_02654
+18	que	que	PRON	PROrel	PronType=Rel	24	obj	_	XmlId=w_42_02655
+19	de	de	ADP	PRE	_	22	case	_	XmlId=w_42_02656
+20	vostre	votre	DET	DETpos	Poss=Yes	22	det	_	XmlId=w_42_02657
+21	benigne	bénin	ADJ	ADJqua	_	22	amod	_	XmlId=w_42_02658
+22	grace	grâce	NOUN	NOMcom	_	24	obl	_	XmlId=w_42_02659
+23	avez	avoir	AUX	VERcjg	VerbForm=Fin	24	aux	_	XmlId=w_42_02660
+24	donné	donner	VERB	VERppe	Tense=Past|VerbForm=Part	17	acl	_	XmlId=w_42_02661
+25	a	à	ADP	PRE	_	28	case	_	XmlId=w_42_02662
+26	ceste	cist	DET	DETdem	PronType=Dem	28	det	_	XmlId=w_42_02663
+27	pouvre	pauvre	ADJ	ADJqua	_	28	amod	_	XmlId=w_42_02664
+28	captive	captif	NOUN	NOMcom	_	24	obl	_	XmlId=w_42_02665
+29	?	?	PUNCT	PONfrt	_	10	punct	_	XmlId=w_42_02666
+
+# text = Si s'en allerent moult joyeusement en devisant de moult de choses jusques en la ville, laquelle fut toute tendue le plus richement que l'on peut faire.
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 353
+# tags = trans
+1	Si	si4	ADV	ADVgen	_	4	advmod	_	XmlId=w_42_02834
+2	s'	se1	PRON	PROper	PronType=Prs	4	expl	_	SpaceAfter=No|XmlId=w_42_02835
+3	en	en2	ADV	PROadv	_	4	obl	_	XmlId=w_42_02836
+4	allerent	aller	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_02837
+5	moult	moult	ADV	ADVgen	_	4	advmod	_	XmlId=w_42_02838
+6	joyeusement	joyeusement	ADV	ADVgen	_	4	advmod	_	XmlId=w_42_02839
+7	en	en1	ADP	PRE	_	8	mark	_	XmlId=w_42_02840
+8	devisant	deviser	VERB	VERppa	Tense=Pres|VerbForm=Part	4	advcl	_	XmlId=w_42_02841
+9	de	de	ADP	PRE	_	12	case	_	XmlId=w_42_02842
+10	moult	moult	ADV	ADVgen	_	12	obl	_	XmlId=w_42_02843
+11	de	de	ADP	PRE	_	12	case	_	XmlId=w_42_02844
+12	choses	chose	NOUN	NOMcom	_	8	obl	_	XmlId=w_42_02845
+13	jusques	jusque	ADP	PRE	_	16	case	_	XmlId=w_42_02846
+14	en	en1	ADP	PRE	_	16	case	_	XmlId=w_42_02847
+15	la	le	DET	DETdef	Definite=Def|PronType=Art	16	det	_	XmlId=w_42_02848
+16	ville	ville	NOUN	NOMcom	_	4	obl	_	SpaceAfter=No|XmlId=w_42_02849
+17	,	,	PUNCT	PONfbl	_	16	punct	_	XmlId=w_42_02850
+18	laquelle	lequel	PRON	PROrel	PronType=Rel	21	nsubj	_	XmlId=w_42_02851
+19	fut	être	AUX	VERcjg	VerbForm=Fin	21	aux	_	XmlId=w_42_02852
+20	toute	tout2	ADV	ADVgen	_	21	advmod	_	XmlId=w_42_02853
+21	tendue	tendre2	VERB	VERppe	Tense=Past|VerbForm=Part	16	acl:relcl	_	XmlId=w_42_02854
+22	le	le	DET	DETdef	Definite=Def|PronType=Art	24	det	_	XmlId=w_42_02855
+23	plus	plus	ADV	ADVgen	_	24	advmod	_	XmlId=w_42_02856
+24	richement	richement	ADV	ADVgen	_	21	advmod	_	XmlId=w_42_02857
+25	que	que	PRON	PROrel	PronType=Rel	29	obj	_	XmlId=w_42_02858
+26	l'	le	DET	DETdef	Definite=Def|PronType=Art	27	det	_	SpaceAfter=No|XmlId=w_42_02859
+27	on	on	PRON	PROind	PronType=Ind	28	nsubj	_	XmlId=w_42_02860
+28	peut	pouvoir	VERB	VERcjg	VerbForm=Fin	24	advcl	_	XmlId=w_42_02861
+29	faire	faire	VERB	VERinf	VerbForm=Inf	28	xcomp	_	SpaceAfter=No|XmlId=w_42_02862
+30	.	.	PUNCT	PONfrt	_	4	punct	_	XmlId=w_42_02863
+
+# text = Quant le roy d'Espaigne et la royne virent que le roy de France s'en vouloit retourner en France, si ne sçavoient en quelle maniere ilz le devoient remercier ne regracier le bien et l'honneur qu'il leur avoit fait,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 369
+# tags = trans
+1	Quant	quand	SCONJ	CONsub	_	9	mark	_	XmlId=w_42_03180
+2	le	le	DET	DETdef	Definite=Def|PronType=Art	3	det	_	XmlId=w_42_03181
+3	roy	roi1	NOUN	NOMcom	_	9	nsubj	_	XmlId=w_42_03182
+4	d'	de	ADP	PRE	_	5	case	_	SpaceAfter=No|XmlId=w_42_03183
+5	Espaigne	Espagne	PROPN	NOMpro	_	3	nmod	_	XmlId=w_42_03184
+6	et	et	CCONJ	CONcoo	_	8	cc	_	XmlId=w_42_03185
+7	la	le	DET	DETdef	Definite=Def|PronType=Art	8	det	_	XmlId=w_42_03186
+8	royne	reine1	NOUN	NOMcom	_	3	conj	_	XmlId=w_42_03187
+9	virent	voir1	VERB	VERcjg	VerbForm=Fin	24	advcl	_	XmlId=w_42_03188
+10	que	que	SCONJ	CONsub	_	17	mark	_	XmlId=w_42_03189
+11	le	le	DET	DETdef	Definite=Def|PronType=Art	12	det	_	XmlId=w_42_03190
+12	roy	roi1	NOUN	NOMcom	_	17	nsubj	_	XmlId=w_42_03191
+13	de	de	ADP	PRE	_	14	case	_	XmlId=w_42_03192
+14	France	France	PROPN	NOMpro	_	12	nmod	_	XmlId=w_42_03193
+15	s'	se1	PRON	PROper	PronType=Prs	18	expl	_	SpaceAfter=No|XmlId=w_42_03194
+16	en	en2	ADV	PROadv	_	18	obl	_	XmlId=w_42_03195
+17	vouloit	vouloir	VERB	VERcjg	VerbForm=Fin	9	ccomp	_	XmlId=w_42_03196
+18	retourner	retourner	VERB	VERinf	VerbForm=Inf	17	xcomp	_	XmlId=w_42_03197
+19	en	en1	ADP	PRE	_	20	case	_	XmlId=w_42_03198
+20	France	France	PROPN	NOMpro	_	18	obl	_	SpaceAfter=No|XmlId=w_42_03199
+21	,	,	PUNCT	PONfbl	_	24	punct	_	XmlId=w_42_03200
+22	si	si4	ADV	ADVgen	_	24	advmod	_	XmlId=w_42_03201
+23	ne	ne1	ADV	ADVneg	PronType=Neg	24	advmod	_	XmlId=w_42_03202
+24	sçavoient	savoir1	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_03203
+25	en	en1	ADP	PRE	_	27	case	_	XmlId=w_42_03204
+26	quelle	quel	DET	DETrel	PronType=Rel	27	det	_	XmlId=w_42_03205
+27	maniere	manière	NOUN	NOMcom	_	31	obl	_	XmlId=w_42_03206
+28	ilz	il	PRON	PROper	PronType=Prs	30	nsubj	_	XmlId=w_42_03207
+29	le	le	PRON	PROper	PronType=Prs	31	obj	_	XmlId=w_42_03208
+30	devoient	devoir	VERB	VERcjg	VerbForm=Fin	24	ccomp	_	XmlId=w_42_03209
+31	remercier	remercier	VERB	VERinf	VerbForm=Inf	30	xcomp	_	XmlId=w_42_03210
+32	ne	ne2	CCONJ	CONcoo	_	33	cc	_	XmlId=w_42_03211
+33	regracier	regracier	VERB	VERinf	VerbForm=Inf	30	conj	_	XmlId=w_42_03212
+34	le	le	DET	DETdef	Definite=Def|PronType=Art	35	det	_	XmlId=w_42_03213
+35	bien	bien	NOUN	NOMcom	_	33	obj	_	XmlId=w_42_03214
+36	et	et	CCONJ	CONcoo	_	38	cc	_	XmlId=w_42_03215
+37	l'	le	DET	DETdef	Definite=Def|PronType=Art	38	det	_	SpaceAfter=No|XmlId=w_42_03216
+38	honneur	honneur	NOUN	NOMcom	_	35	conj	_	XmlId=w_42_03217
+39	qu'	que	PRON	PROrel	PronType=Rel	43	obj	_	SpaceAfter=No|XmlId=w_42_03218
+40	il	il	PRON	PROper	PronType=Prs	43	nsubj	_	XmlId=w_42_03219
+41	leur	leur1	PRON	PROper	PronType=Prs	43	iobj	_	XmlId=w_42_03220
+42	avoit	avoir	AUX	VERcjg	VerbForm=Fin	43	aux	_	XmlId=w_42_03221
+43	fait	faire	VERB	VERppe	Tense=Past|VerbForm=Part	35	acl:relcl	_	SpaceAfter=No|XmlId=w_42_03222
+44	,	,	PUNCT	PONfbl	_	24	punct	_	XmlId=w_42_03223
+
+# text = « Treshault et puissant roy, bien savons que icy ne povez bonnement guieres demourer, pour les grans affaires de vostre royaulme.
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 371
+# tags = trans
+1	«	«	PUNCT	PONpga	_	8	punct	_	XmlId=w_42_03240
+2	Treshault	haut	ADJ	ADJqua	_	5	amod	_	XmlId=w_42_03241
+3	et	et	CCONJ	CONcoo	_	5	cc	_	XmlId=w_42_03242
+4	puissant	puissant	ADJ	ADJqua	_	2	conj	_	XmlId=w_42_03243
+5	roy	roi1	NOUN	NOMcom	_	8	vocative	_	SpaceAfter=No|XmlId=w_42_03244
+6	,	,	PUNCT	PONfbl	_	8	punct	_	XmlId=w_42_03245
+7	bien	bien	ADV	ADVgen	_	8	advmod	_	XmlId=w_42_03246
+8	savons	savoir1	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_03247
+9	que	que	SCONJ	CONsub	_	12	mark	_	XmlId=w_42_03248
+10	icy	ici	ADV	ADVgen	_	15	advmod	_	XmlId=w_42_03249
+11	ne	ne1	ADV	ADVneg	PronType=Neg	12	advmod	_	XmlId=w_42_03250
+12	povez	pouvoir	VERB	VERcjg	VerbForm=Fin	8	ccomp	_	XmlId=w_42_03251
+13	bonnement	bonnement	ADV	ADVgen	_	15	advmod	_	XmlId=w_42_03252
+14	guieres	guère	ADV	ADVgen	_	15	advmod	_	XmlId=w_42_03253
+15	demourer	demeurer	VERB	VERinf	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|XmlId=w_42_03254
+16	,	,	PUNCT	PONfbl	_	12	punct	_	XmlId=w_42_03255
+17	pour	pour	ADP	PRE	_	20	case	_	XmlId=w_42_03256
+18	les	le	DET	DETdef	Definite=Def|PronType=Art	20	det	_	XmlId=w_42_03257
+19	grans	grand	ADJ	ADJqua	_	20	amod	_	XmlId=w_42_03258
+20	affaires	affaire	NOUN	NOMcom	_	15	obl	_	XmlId=w_42_03259
+21	de	de	ADP	PRE	_	23	case	_	XmlId=w_42_03260
+22	vostre	votre	DET	DETpos	Poss=Yes	23	det	_	XmlId=w_42_03261
+23	royaulme	royaume	NOUN	NOMcom	_	20	nmod	_	SpaceAfter=No|XmlId=w_42_03262
+24	.	.	PUNCT	PONfrt	_	8	punct	_	XmlId=w_42_03263
+
+# text = Si savons bien que a nous n'est pas de vous pouvoir recompancer en aulcune maniere,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 372
+# tags = trans
+1	Si	si4	ADV	ADVgen	_	2	advmod	_	XmlId=w_42_03264
+2	savons	savoir1	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_03265
+3	bien	bien	ADV	ADVgen	_	2	advmod	_	XmlId=w_42_03266
+4	que	que	SCONJ	CONsub	_	8	mark	_	XmlId=w_42_03267
+5	a	à	ADP	PRE	_	6	case	_	XmlId=w_42_03268
+6	nous	nous	PRON	PROper	PronType=Prs	8	obl	_	XmlId=w_42_03269
+7	n'	ne1	ADV	ADVneg	PronType=Neg	8	advmod	_	SpaceAfter=No|XmlId=w_42_03270
+8	est	être1	VERB	VERcjg	VerbForm=Fin	2	ccomp	_	XmlId=w_42_03271
+9	pas	pas1	ADV	ADVneg	PronType=Neg	8	advmod	_	XmlId=w_42_03272
+10	de	de	ADP	PRE	_	11	mark	_	XmlId=w_42_03273
+11	vous	vous	PRON	PROper	PronType=Prs	13	obj	_	XmlId=w_42_03274
+12	pouvoir	pouvoir	VERB	VERinf	VerbForm=Inf	8	csubj	_	XmlId=w_42_03275
+13	recompancer	récompenser	VERB	VERinf	VerbForm=Inf	12	xcomp	_	XmlId=w_42_03276
+14	en	en1	ADP	PRE	_	16	case	_	XmlId=w_42_03277
+15	aulcune	aucun	DET	DETind	PronType=Ind	16	det	_	XmlId=w_42_03278
+16	maniere	manière	NOUN	NOMcom	_	13	obl	_	SpaceAfter=No|XmlId=w_42_03279
+17	,	,	PUNCT	PONfbl	_	2	punct	_	XmlId=w_42_03280
+
+# text = car maintenant n'en pouvons bonnement aultre chose faire ;
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 409
+# tags = trans
+1	car	car	CCONJ	CONcoo	_	9	advmod	_	XmlId=w_42_03888
+2	maintenant	maintenant	ADV	ADVgen	_	9	advmod	_	XmlId=w_42_03889
+3	n'	ne1	ADV	ADVneg	PronType=Neg	9	advmod	_	SpaceAfter=No|XmlId=w_42_03890
+4	en	en2	ADV	PROadv	_	9	obl	_	XmlId=w_42_03891
+5	pouvons	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_03892
+6	bonnement	bonnement	ADV	ADVgen	_	9	advmod	_	XmlId=w_42_03893
+7	aultre	autre	DET	DETind	PronType=Ind	8	det	_	XmlId=w_42_03894
+8	chose	chose	NOUN	NOMcom	_	9	obj	_	XmlId=w_42_03895
+9	faire	faire	VERB	VERinf	VerbForm=Inf	5	xcomp	_	XmlId=w_42_03896
+10	;	;	PUNCT	PONfbl	_	5	punct	_	XmlId=w_42_03897
+
+# text = « Mes amys », respondit le roy, « vous ne pouvez bonnement bouger ne ne devez quant a present,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 413
+# tags = trans
+1	«	«	PUNCT	PONpga	_	3	punct	_	XmlId=w_42_03944
+2	Mes	mon1	DET	DETpos	Poss=Yes	3	det	_	XmlId=w_42_03945
+3	amys	ami	NOUN	NOMcom	_	13	vocative	_	XmlId=w_42_03946
+4	»	»	PUNCT	PONpdr	_	3	punct	_	SpaceAfter=No|XmlId=w_42_03947
+5	,	,	PUNCT	PONfbl	_	6	punct	_	XmlId=w_42_03948
+6	respondit	répondre	VERB	VERcjg	VerbForm=Fin	13	parataxis	_	XmlId=w_42_03949
+7	le	le	DET	DETdef	Definite=Def|PronType=Art	8	det	_	XmlId=w_42_03950
+8	roy	roi1	NOUN	NOMcom	_	6	nsubj	_	SpaceAfter=No|XmlId=w_42_03951
+9	,	,	PUNCT	PONfbl	_	6	punct	_	XmlId=w_42_03952
+10	«	«	PUNCT	PONpga	_	6	punct	_	XmlId=w_42_03953
+11	vous	vous	PRON	PROper	PronType=Prs	13	nsubj	_	XmlId=w_42_03954
+12	ne	ne1	ADV	ADVneg	PronType=Neg	13	advmod	_	XmlId=w_42_03955
+13	pouvez	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_03956
+14	bonnement	bonnement	ADV	ADVgen	_	15	advmod	_	XmlId=w_42_03957
+15	bouger	bouger	VERB	VERinf	VerbForm=Inf	13	xcomp	_	XmlId=w_42_03958
+16	ne	ne2	CCONJ	CONcoo	_	18	cc	_	XmlId=w_42_03959
+17	ne	ne1	ADV	ADVneg	PronType=Neg	18	advmod	_	XmlId=w_42_03960
+18	devez	devoir2	VERB	VERcjg	VerbForm=Fin	13	conj	_	XmlId=w_42_03961
+19	quant	quant	ADV	ADVgen	_	18	case	_	XmlId=w_42_03962
+20	a	à	ADP	PRE	_	21	case	_	XmlId=w_42_03963
+21	present	présent1	NOUN	NOMcom	_	15	obl	_	SpaceAfter=No|XmlId=w_42_03964
+22	,	,	PUNCT	PONfbl	_	21	punct	_	XmlId=w_42_03965
+
+# text = car ce peuple que nouvellement a esté reduit, pourroit facillement en vostre absence estre seduit en peu de temps,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 414
+# tags = trans
+1	car	car	CCONJ	CONcoo	_	10	cc:nc	_	XmlId=w_42_03966
+2	ce	ce2	DET	DETdem	PronType=Dem	3	det	_	XmlId=w_42_03967
+3	peuple	peuple1	NOUN	NOMcom	_	10	nsubj	_	XmlId=w_42_03968
+4	que	que	PRON	PROrel	PronType=Rel	8	nsubj	_	XmlId=w_42_03969
+5	nouvellement	nouvellement	ADV	ADVgen	_	8	advmod	_	XmlId=w_42_03970
+6	a	avoir	AUX	VERcjg	VerbForm=Fin	8	aux	_	XmlId=w_42_03971
+7	esté	être	AUX	VERppe	Tense=Past|VerbForm=Part	8	aux:pass	_	XmlId=w_42_03972
+8	reduit	réduire	VERB	VERppe	Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No|XmlId=w_42_03973
+9	,	,	PUNCT	PONfbl	_	10	punct	_	XmlId=w_42_03974
+10	pourroit	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_03975
+11	facillement	facilement	ADV	ADVgen	_	16	advmod	_	XmlId=w_42_03976
+12	en	en1	ADP	PRE	_	14	case	_	XmlId=w_42_03977
+13	vostre	votre	DET	DETpos	Poss=Yes	14	det	_	XmlId=w_42_03978
+14	absence	absence	NOUN	NOMcom	_	16	obl	_	XmlId=w_42_03979
+15	estre	être	AUX	VERinf	VerbForm=Inf	10	aux:pass	_	XmlId=w_42_03980
+16	seduit	séduire	VERB	VERppe	Tense=Past|VerbForm=Part	10	xcomp	_	XmlId=w_42_03981
+17	en	en1	ADP	PRE	_	18	case	_	XmlId=w_42_03982
+18	peu	peu	ADV	ADVgen	_	16	obl	_	XmlId=w_42_03983
+19	de	de	ADP	PRE	_	20	case	_	XmlId=w_42_03984
+20	temps	temps	NOUN	NOMcom	_	18	nmod	_	SpaceAfter=No|XmlId=w_42_03985
+21	,	,	PUNCT	PONfbl	_	10	punct	_	XmlId=w_42_03986
+
+# text = car tous les coulpables ne sont pas mors, ne aussi les parens des pugnis, que pourroient faire a l'encontre de vous quelque vengence ou quelque maulvaise conspiration,
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 415
+# tags = trans
+1	car	car	CCONJ	CONcoo	_	8	cc:nc	_	XmlId=w_42_03987
+2	tous	tous	DET	DETind	PronType=Ind	4	det	_	XmlId=w_42_03988
+3	les	le	DET	DETdef	Definite=Def|PronType=Art	4	det	_	XmlId=w_42_03989
+4	coulpables	coupable	NOUN	NOMcom	_	8	nsubj	_	XmlId=w_42_03990
+5	ne	ne1	ADV	ADVneg	PronType=Neg	8	advmod	_	XmlId=w_42_03991
+6	sont	être	AUX	VERcjg	VerbForm=Fin	8	aux	_	XmlId=w_42_03992
+7	pas	pas1	ADV	ADVneg	PronType=Neg	8	advmod	_	XmlId=w_42_03993
+8	mors	mourir	VERB	ADJqua	_	0	root	_	SpaceAfter=No|XmlId=w_42_03994
+9	,	,	PUNCT	PONfbl	_	13	punct	_	XmlId=w_42_03995
+10	ne	ne2	CCONJ	CONcoo	_	13	cc	_	XmlId=w_42_03996
+11	aussi	aussi	ADV	ADVgen	_	13	advmod	_	XmlId=w_42_03997
+12	les	le	DET	DETdef	Definite=Def|PronType=Art	13	det	_	XmlId=w_42_03998
+13	parens	parent	NOUN	NOMcom	_	4	conj	_	XmlId=w_42_03999
+14	des	de.le	ADP	PRE.DETdef	_	15	case:det	_	XmlId=w_42_04000
+15	pugnis	punir	NOUN	NOMcom	_	13	nmod	_	SpaceAfter=No|XmlId=w_42_04001
+16	,	,	PUNCT	PONfbl	_	18	punct	_	XmlId=w_42_04002
+17	que	que	PRON	PROrel	PronType=Rel	18	nsubj	_	XmlId=w_42_04003
+18	pourroient	pouvoir	VERB	VERcjg	VerbForm=Fin	13	acl:relcl	_	XmlId=w_42_04004
+19	faire	faire	VERB	VERinf	VerbForm=Inf	18	xcomp	_	XmlId=w_42_04005
+20	a	à	ADP	PRE	_	22	case	_	XmlId=w_42_04006
+21	l'	le	DET	DETdef	Definite=Def|PronType=Art	22	det	_	SpaceAfter=No|XmlId=w_42_04007
+22	encontre	encontre1	NOUN	NOMcom	_	19	obl	_	XmlId=w_42_04008
+23	de	de	ADP	PRE	_	24	case	_	XmlId=w_42_04009
+24	vous	vous	PRON	PROper	PronType=Prs	22	nmod	_	XmlId=w_42_04010
+25	quelque	quelque	DET	DETind	PronType=Ind	26	det	_	XmlId=w_42_04011
+26	vengence	vengeance	NOUN	NOMcom	_	19	obj	_	XmlId=w_42_04012
+27	ou	ou	CCONJ	CONcoo	_	30	cc	_	XmlId=w_42_04013
+28	quelque	quelque	DET	DETind	PronType=Ind	30	det	_	XmlId=w_42_04014
+29	maulvaise	mauvais	ADJ	ADJqua	_	30	amod	_	XmlId=w_42_04015
+30	conspiration	conspiration	NOUN	NOMcom	_	26	conj	_	SpaceAfter=No|XmlId=w_42_04016
+31	,	,	PUNCT	PONfbl	_	18	punct	_	XmlId=w_42_04017
+
+# text = et sans sa grace vous ne pouvez nul bien avoir.
+# newdoc_id = Jehpar_1494_prose
+# sent_id = 418
+# tags = trans
+1	et	et	CCONJ	CONcoo	_	7	cc:nc	_	XmlId=w_42_04069
+2	sans	sans	ADP	PRE	_	4	case	_	XmlId=w_42_04070
+3	sa	son4	DET	DETpos	Poss=Yes	4	det	_	XmlId=w_42_04071
+4	grace	grâce	NOUN	NOMcom	_	10	obl	_	XmlId=w_42_04072
+5	vous	vous	PRON	PROper	PronType=Prs	7	nsubj	_	XmlId=w_42_04073
+6	ne	ne1	ADV	ADVneg	PronType=Neg	7	advmod	_	XmlId=w_42_04074
+7	pouvez	pouvoir	VERB	VERcjg	VerbForm=Fin	0	root	_	XmlId=w_42_04075
+8	nul	nul	DET	DETind	PronType=Ind	9	det	_	XmlId=w_42_04076
+9	bien	bien	NOUN	NOMcom	_	10	obj	_	XmlId=w_42_04077
+10	avoir	avoir1	VERB	VERinf	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|XmlId=w_42_04078
+11	.	.	PUNCT	PONfrt	_	7	punct	_	XmlId=w_42_04079
+

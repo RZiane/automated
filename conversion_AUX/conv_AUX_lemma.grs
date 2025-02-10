@@ -1,0 +1,18 @@
+rule r {
+  pattern {
+    M2 [upos=AUX, lemma<>"avoir"|"avoir1"|"être"|"être1"] ; 
+    %M2 [upos=AUX];
+    e: M1 -[aux]-> M2 ; 
+  }
+
+  commands { 
+  	M2.upos = VERB;
+    del_edge e; % delete the edge
+    add_edge M2 -[xcomp]-> M1; % add the inverse edge
+    
+    shift_in M1 ==> M2;
+    
+    shift_out M1 =[^obj|iobj|ccomp|xcomp]=> M2;
+    %shift_out M1 ==> M2;
+	}
+}

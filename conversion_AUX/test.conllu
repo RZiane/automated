@@ -1,0 +1,13 @@
+# user_id = gold
+# text = « Issi poet il ben estre ! »
+# newdoc id = roland
+# sent_id = 48
+# timestamp = 1710230786018.791
+1	«	_	PUNCT	PONpga	_	2	punct	_	XmlId=w_58_00532
+2	Issi	_	ADV	ADVgen	_	0	root	_	XmlId=w_58_00533
+3	poet	_	AUX	VERcjg	VerbForm=Fin	2	aux	_	XmlId=w_58_00534
+4	il	_	PRON	PROper	PronType=Prs	2	expl	_	XmlId=w_58_00535
+5	ben	_	ADV	ADVgen	_	2	advmod	_	XmlId=w_58_00536
+6	estre	_	AUX	VERinf	VerbForm=Inf	2	cop	_	XmlId=w_58_00537
+7	!	_	PUNCT	PONfrt	_	2	punct	_	XmlId=w_58_00538
+8	»	_	PUNCT	PONpdr	_	2	punct	_	XmlId=w_58_00539

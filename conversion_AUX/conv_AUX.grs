@@ -1,0 +1,103 @@
+rule advneg {
+	pattern {
+    ADVNEG [form="ne"|"pas"|"n'"|"point"|"jamais"|"jam.*" , upos=ADV];
+    e: X -[^advneg]-> ADVNEG;
+    }
+    commands {
+    del_edge e;
+    add_edge X -[advneg]-> ADVNEG;
+    }
+}
+
+rule explsubj {
+	pattern {
+    EXPLSUBJ [form="il"|"Il"|"i"];
+    * -[expl]-> EXPLSUBJ;
+    e: X -[^explsubj]-> EXPLSUBJ;
+    }
+    commands {
+    del_edge e;
+    add_edge X -[explsubj]-> EXPLSUBJ;
+    }
+}
+
+rule base (lex from "aux.lex"){
+  pattern {
+    M1 [upos=VERB];
+    M2 [upos=AUX];
+    e: M1 -[aux]-> M2 ;
+  }
+
+  without {
+    M2 [form=lex.form];
+  }
+
+  commands { 
+  	M2.upos = VERB;
+    del_edge e; % delete the edge
+    add_edge M2 -[xcomp]-> M1; % add the inverse edge
+    
+    % and then shift the in-edges pointing to M1 and redirect to M2
+    shift_in M1 ==> M2;
+    
+    % facultative : if you also want to redirect all out-edges (starting from M1) to M2 (will start from M2), use the following line :
+    shift_out M1 =[1<>obj|iobj|obl|ccomp|xcomp|advmod|expl]=> M2;
+	}
+}
+
+rule attrib (lex2 from "aux.lex"){
+  pattern {
+    M2 [upos=AUX];
+    e: M1 -[aux]-> M2 ;
+    e2: M1 -[cop]-> COP;
+  }
+
+  without {
+    M2 [form=lex2.form];
+  }
+
+  commands { 
+  	M2.upos = VERB;
+    del_edge e; % delete the edge
+    add_edge M2 -[xcomp]-> M1; % add the inverse edge
+    
+    % and then shift the in-edges pointing to M1 and redirect to M2
+    shift_in M1 ==> M2;
+    
+    % facultative : if you also want to redirect all out-edges (starting from M1) to M2 (will start from M2), use the following line :
+    shift_out M1 =[1<>det|cop|amod|nmod|appos|nummod|acl]=> M2;
+	}
+}
+
+rule del_advneg_attrib {
+	pattern {
+    e: X -[advneg]-> ADVNEG;
+    }
+
+  commands {
+    del_edge e;
+    add_edge X -[advmod]-> ADVNEG;
+    }
+}
+
+rule del_explsubj_attrib {
+	pattern {
+    e: X -[explsubj]-> EXPLSUBJ;
+    }
+  
+  commands {
+    del_edge e;
+    add_edge X -[expl]-> EXPLSUBJ;
+    }
+}
+
+strat main {
+  Seq (
+    Onf (advneg),
+    Onf (explsubj),
+    Onf (base),
+    Onf (attrib),
+    Onf (del_advneg_attrib),
+    Onf (del_explsubj_attrib)
+    )
+  }
